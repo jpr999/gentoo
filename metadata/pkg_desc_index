@@ -15072,7 +15072,6 @@ net-libs/wvstreams 4.6.1_p14-r2 4.6.1_p14-r3: A network programming library in C
 net-libs/xdp-tools 1.6.2 1.6.3-r1: The libxdp library and various tools for use with XDP
 net-libs/xrootd 5.8.2 5.9.5 9999: Extended ROOT remote file server
 net-libs/zeromq 4.3.5-r1: High-performance asynchronous messaging library
-net-libs/zmqpp 4.2.0-r1: ZeroMQ 'highlevel' C++ bindings
 net-mail/altermime 0.3.12: alterMIME is a small program which is used to alter your mime-encoded mailpacks
 net-mail/amavis-logwatch 1.51.04: A log analyzer for amavisd-new
 net-mail/asmail 2.1-r4: A small mail monitor similar to xbiff
@@ -16403,7 +16402,7 @@ sci-mathematics/verit 2021.06.2: An open, trustable and efficient SMT-prover
 sci-mathematics/why3 1.6.0 1.7.2 1.8.0 1.8.1 1.8.2: Platform for deductive program verification
 sci-mathematics/why3-for-spark 2023.12.13-r2: SPARK 2014 repository for the Why3 verification platform
 sci-mathematics/wxmaxima 25.04.0-r2 26.01.0 26.05.0-r1: Graphical frontend to Maxima, using the wxWidgets toolkit
-sci-mathematics/yacas 1.9.1-r2 1.9.1-r3: General purpose computer algebra system
+sci-mathematics/yacas 1.9.1-r3: General purpose computer algebra system
 sci-mathematics/yafu 1.34.3-r2: Yet another factoring utility
 sci-mathematics/yices2 2.6.5: SMT Solver supporting SMT-LIB and Yices specification language
 sci-mathematics/z3 4.16.0: An efficient theorem prover
@@ -18740,7 +18739,6 @@ x11-misc/py3status 3.61-r1 3.63: py3status is an extensible i3status wrapper wri
 x11-misc/qarma 1.1.0: Zenity Clone for Qt
 x11-misc/qlipper 6.0.0: Lightweight and cross-platform clipboard history applet
 x11-misc/qps 2.12.0 2.13.0: Qt GUI Process Manager
-x11-misc/qt5ct 1.9: Qt5 configuration tool, similar to qtconfig for Qt4
 x11-misc/qterm 0.8.2: BBS client based on Qt
 x11-misc/quitcount 3.1.4: A simple applet that shows what you saved since you quit smoking
 x11-misc/read-edid 3.0.2-r2: Program that can get information from a PnP monitor
