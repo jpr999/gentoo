@@ -1280,7 +1280,7 @@ app-backup/rdumpfs 0.1: a rsync-based dump file system backup tool
 app-backup/rdup 1.1.15-r1 1.1.15-r3: Generate a file list suitable for full or incremental backups
 app-backup/rear 2.7 2.9: Relax-and-Recover is a setup-and-forget bare metal disaster recovery solution
 app-backup/reoback 1.0_p3-r1: Reoback Backup Solution
-app-backup/restic 0.18.0 0.18.1: A backup program that is fast, efficient and secure
+app-backup/restic 0.18.1 0.19.0: A backup program that is fast, efficient and secure
 app-backup/rsnapshot 1.4.4-r1 1.4.5-r1: A filesystem backup utility based on rsync
 app-backup/sarab 1.0.0-r1: SaraB is a powerful and automated backup scheduling system based on DAR
 app-backup/simplebackup 1.8.1-r2: Cross-platform backup program
@@ -13094,7 +13094,7 @@ media-gfx/libredwg 0.13.3 0.13.4: C library to handle DWG files
 media-gfx/llgal 0.13.19-r2: Command-line static web gallery generator
 media-gfx/loupe 48.1-r2 49.2: View images
 media-gfx/lximage-qt 2.3.0 2.4.0: Qt Image Viewer
-media-gfx/maim 5.8.1 5.8.1-r1: Commandline tool to take screenshots of the desktop
+media-gfx/maim 5.8.1 5.8.1-r1 5.8.2: Commandline tool to take screenshots of the desktop
 media-gfx/mandelbulber 2.33: Tool to render 3D fractals
 media-gfx/mcomix 3.1.1-r1 9999: GTK image viewer for comic book archives
 media-gfx/metapixel 1.0.2-r2 1.0.2-r3: a program for generating photomosaics
@@ -14316,7 +14316,7 @@ media-video/dvdimagecmp 0.3-r1: Tool to compare a burned DVD with an image to ch
 media-video/dvdstyler 3.2.1-r2 3.2.1-r3: A cross-platform free DVD authoring application
 media-video/dvgrab 3.5-r2: Digital Video (DV) grabber for GNU/Linux
 media-video/ffcast 2.4.8: Record screencasts using ffmpeg
-media-video/ffmpeg 4.4.7 6.1.5 7.1.4 8.1 8.1.1 9999: Complete solution to record/convert/stream audio and video
+media-video/ffmpeg 4.4.7 6.1.5 7.1.4 8.1 8.1.1 8.1.2 9999: Complete solution to record/convert/stream audio and video
 media-video/ffmpeg-chromium 137 138 140 141 142 143 144 145 146 147 148 149 150 151: FFmpeg built specifically for codec support in Chromium-based browsers
 media-video/ffmpeg-compat 4.4.7 6.1.5 7.1.4: Complete solution to record/convert/stream audio and video
 media-video/ffmpegthumbnailer 2.2.3: Lightweight video thumbnailer that can be used by file managers
@@ -14834,7 +14834,7 @@ net-im/rocketchat-desktop-bin 3.9.10-r1 4.1.1-r1: The Ultimate Open Source Web C
 net-im/sendxmpp 1.24: A perl-script to send xmpp (jabber), similar to what mail(1) does for mail
 net-im/sendxmpp-scala 1.2.0 1.2.1 9999: Send XMPP (Jabber) messages via command line
 net-im/signal-cli-bin 0.13.9 0.13.19 0.14.1: Send and receive messages of Signal Messenger over a command line interface
-net-im/signal-desktop-bin 8.13.0: Allows you to send and receive messages of Signal Messenger on your computer
+net-im/signal-desktop-bin 8.14.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/slack 4.49.89 4.50.121: Team collaboration tool
 net-im/spectrum2 2.2.1-r2: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
@@ -17851,7 +17851,7 @@ sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based PO
 sys-kernel/vanilla-kernel 5.10.257 5.10.258 5.10.9999 5.15.208 5.15.209 5.15.9999 6.1.174 6.1.175 6.1.9999 6.6.141 6.6.142 6.6.9999 6.12.93 6.12.9999 6.18.35 6.18.9999 7.0.12: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 5.10.258 5.15.209 6.1.175 6.6.142 6.12.93 6.18.35 7.0.12 7.1.0: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
-sys-kernel/zen-sources 7.0.9: The Zen Kernel Live Sources
+sys-kernel/zen-sources 7.0.12: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
 sys-libs/basu 0.2.1: The sd-bus library, extracted from systemd
 sys-libs/binutils-libs 2.34-r2 2.35.2 2.36.1-r2 2.37_p1-r2 2.38-r2 2.39-r5 2.40-r7 2.41-r5 2.42-r2 2.43-r3 2.44-r2 2.45 2.45-r1 2.45.1 2.46.0 2.46.1 2.46.1-r1 9999: Core binutils libraries (libbfd, libopcodes, libiberty) for external packages
