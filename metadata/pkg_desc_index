@@ -14750,7 +14750,7 @@ net-firewall/conntrack-tools 1.4.8-r1 1.4.9: Connection tracking userspace tools
 net-firewall/ebtables 2.0.11-r3: Controls Ethernet frame filtering on a Linux bridge, MAC NAT and brouting
 net-firewall/ferm 2.7: Command line util for managing firewall rules
 net-firewall/firehol 3.1.7-r2 3.1.8: iptables firewall generator
-net-firewall/firewalld 2.3.0-r2 2.3.1 2.3.1-r1 2.3.2 2.4.0: Firewall daemon with D-Bus interface providing a dynamic firewall
+net-firewall/firewalld 2.4.0 2.4.2: Firewall daemon with D-Bus interface providing a dynamic firewall
 net-firewall/fwbuilder 6.0.0_rc1_p20230723-r1: Firewall management GUI for iptables, PF, Cisco routers and more
 net-firewall/fwknop 2.6.11-r1: Single Packet Authorization and Port Knocking application
 net-firewall/ipkungfu 0.6.1-r2: A nice iptables firewall script
@@ -15013,7 +15013,7 @@ net-libs/libssh2 1.11.1 9999: Library implementing the SSH2 protocol
 net-libs/libtelnet 0.23-r2: Simple RFC-compliant TELNET implementation as a C library
 net-libs/libtirpc 1.3.6 1.3.7 1.3.7-r2: Transport Independent RPC library (SunRPC replacement)
 net-libs/libtlsrpt 0.5.0 9999: library to implement TLSRPT
-net-libs/libtorrent 0.15.7 0.16.11 0.16.13 9999: BitTorrent library written in C++ for *nix
+net-libs/libtorrent 0.15.7 0.16.11 0.16.13 0.16.14 9999: BitTorrent library written in C++ for *nix
 net-libs/libtorrent-rasterbar 2.0.10: C++ BitTorrent implementation focusing on efficiency and scalability
 net-libs/libtrace 4.0.21 4.0.22 4.0.26 4.0.28: A library and tools for trace processing
 net-libs/libupnp 1.14.24 1.14.25 1.14.30 1.14.31 1.18.5: An Portable Open Source UPnP Development Kit
@@ -15530,7 +15530,7 @@ net-p2p/ncdc 1.25: Lightweight direct connect client with a friendly ncurses int
 net-p2p/nicotine+ 3.3.7 3.3.10: Graphical client for the Soulseek peer to peer network written in Python
 net-p2p/qbittorrent 5.1.2-r1 5.1.4 5.2.0 9999: BitTorrent client in C++ and Qt
 net-p2p/resilio-sync 2.8.1.1390 3.1.1.1075 9999: Resilient, fast and scalable file synchronization tool
-net-p2p/rtorrent 0.15.7 0.16.11 0.16.13 9999: BitTorrent Client using libtorrent
+net-p2p/rtorrent 0.15.7 0.16.11 0.16.13 0.16.14 9999: BitTorrent Client using libtorrent
 net-p2p/stig 0.14.0a_p0 0.14.2a_p0: TUI and CLI for the BitTorrent client Transmission
 net-p2p/syncthing 1.29.5 2.0.10 2.0.14 2.0.15 2.0.16 2.1.0 2.1.1: Open Source Continuous File Synchronization
 net-p2p/torrentinfo 1.8.7: A torrent file parser
@@ -17383,7 +17383,7 @@ sys-apps/usbutils 019: USB enumeration utilities
 sys-apps/usermode-utilities 20070815-r6: Tools for use with Usermode Linux virtual machines
 sys-apps/uswid 0.4.7 0.6.0: Pure-Python library and CLI tool for processing SBoM metadata
 sys-apps/utempter 0.5.5.6-r2: App that allows non-privileged apps to write utmp (login) info
-sys-apps/util-linux 2.41.3-r1 2.41.4-r1 2.42.1 9999: Various useful Linux utilities
+sys-apps/util-linux 2.41.3-r1 2.41.4-r1 2.41.5 2.42.1 2.42.2 9999: Various useful Linux utilities
 sys-apps/uutils-coreutils 0.7.0 0.8.0 9999: GNU coreutils rewritten in Rust
 sys-apps/uutils-findutils 0.8.0 9999: GNU findutils rewritten in Rust
 sys-apps/vbetool 1.2.2: Run real-mode video BIOS code to alter hw state (i.e. reinitialize video card)
@@ -17531,7 +17531,7 @@ sys-boot/gnu-efi 3.0.19 4.0.4: Library for build EFI Applications
 sys-boot/grub 2.12-r12 2.14-r5 9999: GNU GRUB boot loader
 sys-boot/grub-themes-gentoo 1.0-r2: Grub2 Themes for Gentoo
 sys-boot/lilo 24.2-r2 24.2-r3: LInux LOader, the original Linux bootloader
-sys-boot/limine 11.4.1 12.2.0: Limine is a modern, advanced, and portable BIOS/UEFI multiprotocol bootloader
+sys-boot/limine 12.3.3: Modern, secure, portable, multiprotocol bootloader and boot manager.
 sys-boot/makebootfat 1.4: Command line utility able to create bootable USB disks
 sys-boot/mbr 1.1.11-r2: A replacement master boot record for IBM-PC compatible computers
 sys-boot/milo 2.4.18: The Alpha MIniLOader, for Alpha Machines without SRM
@@ -18259,7 +18259,7 @@ www-apps/readarr-bin 0.4.18.2805: An ebook and audiobook collection manager for 
 www-apps/redmine 6.0.7: Flexible project management web application using the Ruby on Rails framework
 www-apps/roundup 2.3.0 2.4.0 2.5.0: Issue-tracking system with command-line, web, and e-mail interfaces
 www-apps/rt 5.0.6-r1: RT is an enterprise-grade ticketing system
-www-apps/rutorrent 5.3.0 5.3.1 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
+www-apps/rutorrent 5.3.1 5.3.2 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
 www-apps/selfoss 2.20_pre20230730: The multipurpose rss reader, live stream, mashup, aggregation web application
 www-apps/sfpg 4.11.0: A web gallery in one single PHP file
 www-apps/sonarr-bin 4.0.17.2969: Sonarr is a Smart PVR for newsgroup and bittorrent users
