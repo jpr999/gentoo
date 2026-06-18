@@ -931,7 +931,7 @@ app-admin/apg 2.3.0b_p20240821: Another Password Generator
 app-admin/augeas 1.14.1-r1: A library for changing configuration files
 app-admin/authbind 2.1.3: Bind sockets to privileged ports without root
 app-admin/aws-session-manager-plugin 1.2.792.0 1.2.804.0 1.2.814.0: AWS Session Manager Plugin for aws-cli
-app-admin/awscli 1.45.9 1.45.14 1.45.18 1.45.24 1.45.29 1.45.30 1.45.31: Universal Command Line Environment for AWS
+app-admin/awscli 1.45.9 1.45.14 1.45.18 1.45.24 1.45.29 1.45.30 1.45.31 1.45.32: Universal Command Line Environment for AWS
 app-admin/awscli-bin 2.34.24 2.34.40: command line interface for Amazon Web Services
 app-admin/bitwarden-cli-bin 2025.6.1 2025.7.0 2025.12.0: CLI client for Bitwarden compatible servers
 app-admin/bitwarden-desktop-bin 2026.1.0 2026.2.1: Bitwarden password manager desktop client
@@ -5381,7 +5381,7 @@ dev-libs/boron 2.1.0: A scripting language similar to REBOL
 dev-libs/botan 3.11.1: C++ crypto library
 dev-libs/boxfort 0.1.4-r1 0.1.4-r2 0.1.5: Convenient & cross-platform sandboxing C library
 dev-libs/c-blosc 1.21.6-r1: Blocking, shuffling and lossless compression library
-dev-libs/c-blosc2 2.23.1 3.0.3 3.1.2 3.1.3: Blocking, shuffling and lossless compression library
+dev-libs/c-blosc2 2.23.1 3.0.3 3.1.2 3.1.3 3.1.4: Blocking, shuffling and lossless compression library
 dev-libs/c-capnproto 0.3-r1: C library/compiler for the Cap'n Proto serialization/RPC protocol
 dev-libs/c-siphash 1.1.0-r1: Streaming-capable SipHash Implementation
 dev-libs/c-stdaux 1.6.0: Auxiliary macros and functions for the C standard library
@@ -8246,7 +8246,7 @@ dev-python/betamax-matchers 0.4.0-r1: A group of experimental matchers for Betam
 dev-python/bibtexparser 1.4.4: A BibTeX parser written in Python
 dev-python/binaryornot 0.6.0: Ultra-lightweight pure Python package to guess whether a file is binary or text
 dev-python/bincopy 20.1.1: Mangling of various file formats that conveys binary information
-dev-python/bitarray 3.8.1: Efficient arrays of booleans -- C extension
+dev-python/bitarray 3.8.1 3.8.2: Efficient arrays of booleans -- C extension
 dev-python/bitstring 4.3.1 4.4.0-r2: A pure Python module for creation and analysis of binary data
 dev-python/black 25.1.0 26.3.1 26.5.0 26.5.1: The uncompromising Python code formatter
 dev-python/blake3 1.0.8-r1: Python bindings for the BLAKE3 cryptographic hash function
@@ -8259,8 +8259,8 @@ dev-python/bluelet 0.2.0-r1: Module for pure Python asynchronous I/O using corou
 dev-python/blurb 2.0.0: Tool to create and manage NEWS blurbs for CPython
 dev-python/boltons 25.0.0: Pure-python utilities in the same spirit as the standard library
 dev-python/boolean-py 5.0: Define boolean algebras, create and parse boolean expressions
-dev-python/boto3 1.43.9 1.43.14 1.43.18 1.43.24 1.43.29 1.43.30 1.43.31: The AWS SDK for Python
-dev-python/botocore 1.43.9 1.43.14 1.43.18 1.43.24 1.43.29 1.43.30 1.43.31: Low-level, data-driven core of boto 3
+dev-python/boto3 1.43.9 1.43.14 1.43.18 1.43.24 1.43.29 1.43.30 1.43.31 1.43.32: The AWS SDK for Python
+dev-python/botocore 1.43.9 1.43.14 1.43.18 1.43.24 1.43.29 1.43.30 1.43.31 1.43.32: Low-level, data-driven core of boto 3
 dev-python/bottle 0.13.4: A fast and simple micro-framework for small web-applications
 dev-python/bottleneck 1.6.0: Fast NumPy array functions written in C
 dev-python/bpython 0.26: Syntax highlighting and autocompletion for the Python interpreter
@@ -8474,7 +8474,7 @@ dev-python/expecttest 0.3.0: golden tests
 dev-python/extras 1.0.0-r2: Useful extra bits for Python that should be in the standard library
 dev-python/eyed3 0.9.9: Module for manipulating ID3 (v1 + v2) tags in Python
 dev-python/faker 40.18.0 40.19.1 40.21.0 40.23.0: A Python package that generates fake data for you
-dev-python/fakeredis 2.35.1 2.36.0 2.36.1: Fake implementation of redis API for testing purposes
+dev-python/fakeredis 2.35.1 2.36.0 2.36.1 2.36.2: Fake implementation of redis API for testing purposes
 dev-python/fastapi 0.136.3: High performance framework, easy to learn, fast to code, ready for production
 dev-python/fastbencode 0.3.10: Implementation of bencode with Rust implementation
 dev-python/fasteners 0.20: Python package that provides useful locks
@@ -8559,7 +8559,7 @@ dev-python/gpgmepy 2.0.0-r1: GnuPG Made Easy is a library for making GnuPG easie
 dev-python/gpt-image 0.9.1: Tool to create GPT disk image files
 dev-python/graph-tool 2.98 9999: An efficient python module for manipulation and statistical analysis of graphs
 dev-python/graphviz 0.21: Simple Python interface for Graphviz
-dev-python/greenlet 3.4.0 3.5.0 3.5.1: Lightweight in-process concurrent programming
+dev-python/greenlet 3.4.0 3.5.0 3.5.1 3.5.2: Lightweight in-process concurrent programming
 dev-python/greenstalk 2.1.1: Python 3 client for the beanstalkd work queue
 dev-python/griddataformats 1.2.0: Reading and writing of data on regular grids in Python
 dev-python/grpcio 1.80.0 1.81.0 1.81.1: HTTP/2-based RPC framework
@@ -8707,11 +8707,11 @@ dev-python/jupyter-events 0.12.0 0.12.1: Jupyter Event System library
 dev-python/jupyter-kernel-test 0.7.0: A tool for testing Jupyter kernels
 dev-python/jupyter-lsp 2.3.1: Multi-Language Server WebSocket proxy for Jupyter Notebook/Lab
 dev-python/jupyter-packaging 0.12.3: Tools to help build and install Jupyter Python packages
-dev-python/jupyter-server 2.18.2 2.19.0: Core services, APIs, and REST endpoints to Jupyter web applications
+dev-python/jupyter-server 2.18.2 2.19.0 2.20.0: Core services, APIs, and REST endpoints to Jupyter web applications
 dev-python/jupyter-server-mathjax 0.2.6-r1: MathJax resources as a Jupyter Server Extension
 dev-python/jupyter-server-proxy 4.4.0: Jupyter notebook server extension to proxy web services
 dev-python/jupyter-server-terminals 0.5.4: A Jupyter Server Extension Providing Terminals
-dev-python/jupyterlab 4.4.10-r1 4.5.7 4.5.8: JupyterLab computational environment
+dev-python/jupyterlab 4.4.10-r1 4.5.7 4.5.8 4.5.9: JupyterLab computational environment
 dev-python/jupyterlab-lsp 5.1.0: Coding assistance for JupyterLab with Language Server Protocol
 dev-python/jupyterlab-pygments 0.3.0: Pygments theme making use of JupyterLab CSS variables
 dev-python/jupyterlab-server 2.28.0: Server components for JupyterLab and JupyterLab like applications
@@ -8905,7 +8905,7 @@ dev-python/openapi3 1.8.2: Python OpenAPI 3 Specification client and validator
 dev-python/openpyxl 3.1.5: Pure python reader and writer of Excel OpenXML files
 dev-python/opensearch-py 3.0.0: Python client for OpenSearch
 dev-python/openstackdocstheme 3.6.0: Theme and extension support for Sphinx documentation
-dev-python/openstacksdk 4.12.0 4.13.0 4.14.0 4.15.0: A collection of libraries for building applications to work with OpenStack
+dev-python/openstacksdk 4.12.0 4.13.0 4.14.0 4.15.0 4.16.0: A collection of libraries for building applications to work with OpenStack
 dev-python/opentelemetry-api 1.41.1 1.42.1: OpenTelemetry Python API
 dev-python/opentelemetry-sdk 1.41.1 1.42.1: OpenTelemetry Python SDK
 dev-python/opentelemetry-semantic-conventions 1.41.1 1.42.1: OpenTelemetry Semantic Conventions
@@ -9143,7 +9143,7 @@ dev-python/pyotp 2.9.0 2.10.0: PyOTP is a Python library for generating and veri
 dev-python/pyparsing 3.3.2: Easy-to-use Python module for text parsing
 dev-python/pyparted 3.13.0: Python bindings for sys-block/parted
 dev-python/pypax 0.9.5-r2 9999: Python module to get or set either PT_PAX and/or XATTR_PAX flags
-dev-python/pypdf 6.10.2 6.11.0 6.12.2 6.13.0 6.13.1 6.13.2: Python library to work with PDF files
+dev-python/pypdf 6.10.2 6.11.0 6.12.2 6.13.0 6.13.1 6.13.2 6.13.3: Python library to work with PDF files
 dev-python/pyperclip 1.11.0: A cross-platform clipboard module for Python
 dev-python/pyphen 0.17.2: Python module for hyphenation using hunspell dictionaries
 dev-python/pypi-attestations 0.0.29: Convert between Sigstore Bundles and PEP-740 Attestation objects
@@ -9154,7 +9154,7 @@ dev-python/pypresence 4.6.1: Complete Discord IPC and Rich Presence wrapper libr
 dev-python/pyprof2calltree 1.4.5-r1: Convert python profile data to kcachegrind calltree form
 dev-python/pyproj 3.7.2: Python interface to the PROJ library
 dev-python/pyproject-api 1.10.0 1.10.1: API to interact with the python pyproject.toml based projects
-dev-python/pyproject-fmt 2.20.0 2.21.1 2.21.2 2.24.0 2.24.1: Format your pyproject.toml file
+dev-python/pyproject-fmt 2.20.0 2.21.1 2.21.2 2.24.0 2.24.1 2.25.0: Format your pyproject.toml file
 dev-python/pyproject-hooks 1.2.0: Wrappers to build Python packages using PEP 517 hooks
 dev-python/pyproject-metadata 0.11.0: PEP 621 metadata parsing
 dev-python/pypugjs 6.0.2 6.0.3: Pug (Jade) syntax adapter for Django, Jinja2 and Mako templates
@@ -9584,7 +9584,7 @@ dev-python/suds-community 1.2.0: Lightweight SOAP client
 dev-python/superqt 0.8.2: Missing widgets and components for PyQt/PySide
 dev-python/sure 2.0.1-r1: idiomatic assertion toolkit with human-friendly failure messages
 dev-python/svg-path 7.0: SVG path objects and parser
-dev-python/svglib 1.6.0 2.0.0: Pure-Python library for reading and converting SVG
+dev-python/svglib 1.6.0 2.0.0 2.0.1: Pure-Python library for reading and converting SVG
 dev-python/svgwrite 1.4.3: Python Package to write SVG files
 dev-python/swagger-spec-validator 3.0.4: Validate Swagger specs against Swagger 1.1 or 2.0 specification
 dev-python/sybil 10.0.1 10.1.0: Automated testing for the examples in your documentation
@@ -9640,7 +9640,7 @@ dev-python/tornado 6.5.5 6.5.6 6.5.7: Python web framework and asynchronous netw
 dev-python/towncrier 25.8.0: Building newsfiles for your project
 dev-python/tox 4.50.3 4.53.1 4.54.0 4.55.0 4.55.1: virtualenv-based automation of test activities
 dev-python/tpm2-pytss 2.3.0-r2: Python bindings for TSS
-dev-python/tqdm 4.67.3 4.68.1 4.68.2: Add a progress meter to your loops in a second
+dev-python/tqdm 4.67.3 4.68.1 4.68.2 4.68.3: Add a progress meter to your loops in a second
 dev-python/traitlets 5.15.1: A configuration system for Python applications
 dev-python/trakit 0.2.5: Guess additional information from titles in media tracks
 dev-python/transitions 0.9.3: A lightweight, object-oriented state machine implementation in Python
@@ -10765,7 +10765,7 @@ dev-util/bingrep 0.11.0-r1: Binary file analysis tool
 dev-util/bloaty 1.1-r1 1.1-r2 9999: A size profiler for binaries
 dev-util/blueprint-compiler 0.19.0 0.20.0 0.20.4: Compiler for Blueprint, a markup language for GTK user interfaces
 dev-util/bootconfig 6.6 6.9: Bootconfig tools for kernel command line to support key-value
-dev-util/bpf-linker 0.9.15 0.9.15-r1 0.10.3: Simple BPF static linker
+dev-util/bpf-linker 0.9.15 0.9.15-r1 0.10.3 0.10.4: Simple BPF static linker
 dev-util/bpftool 7.6.0-r1 7.7.0-r1 9999: Tool for inspection and simple manipulation of eBPF programs and maps
 dev-util/bpftop 0.7.1 0.8.0: Dynamic real-time view of running eBPF programs
 dev-util/breakpad 2024.02.16: A set of client and server components which implement a crash-reporting system
