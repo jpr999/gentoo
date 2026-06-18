@@ -12420,7 +12420,7 @@ kde-frameworks/kdbusaddons 6.25.0 6.27.0: Framework for registering services and
 kde-frameworks/kdeclarative 6.25.0 6.27.0: Framework providing integration of QML and KDE work spaces
 kde-frameworks/kded 6.25.0 6.27.0: Central daemon of KDE workspaces
 kde-frameworks/kdesu 6.25.0 6.27.0: Framework to handle super user actions
-kde-frameworks/kdnssd 6.25.0 6.25.0-r1 6.27.0: Framework for network service discovery using Zeroconf
+kde-frameworks/kdnssd 6.25.0-r1 6.27.0: Framework for network service discovery using Zeroconf
 kde-frameworks/kdoctools 6.25.0 6.27.0: Tools to generate documentation in various formats from DocBook files
 kde-frameworks/kf-env 6: Environment setting required for all KDE Frameworks apps to run
 kde-frameworks/kfilemetadata 6.25.0 6.27.0: Library for extracting file metadata
