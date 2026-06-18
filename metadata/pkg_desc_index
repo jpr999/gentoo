@@ -12524,7 +12524,7 @@ kde-plasma/ksshaskpass 6.6.5 6.7.0: Implementation of ssh-askpass with KDE Walle
 kde-plasma/ksystemstats 6.6.5 6.7.0: Plugin-based system monitoring daemon
 kde-plasma/kwallet-pam 6.6.5 6.7.0: PAM module to not enter KWallet password again after login
 kde-plasma/kwayland 6.6.5 6.7.0: Qt-style API to interact with the wayland-client API
-kde-plasma/kwin 6.6.5-r1 6.6.5-r2 6.7.0: Flexible, composited Window Manager for windowing systems on Linux
+kde-plasma/kwin 6.6.5-r1 6.6.5-r2 6.7.0-r1: Flexible, composited Window Manager for windowing systems on Linux
 kde-plasma/kwin-x11 6.6.5 6.7.0: Flexible, composited X window manager
 kde-plasma/kwrited 6.6.5 6.7.0: KDE Plasma daemon listening for wall and write messages
 kde-plasma/layer-shell-qt 6.6.5 6.7.0: Qt component to allow applications make use of Wayland wl-layer-shell protocol
