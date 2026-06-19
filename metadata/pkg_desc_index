@@ -8257,7 +8257,7 @@ dev-python/blockbuster 1.5.26: Utility to detect blocking calls in the async eve
 dev-python/blosc 1.11.4: High performance compressor optimized for binary data
 dev-python/bluelet 0.2.0-r1: Module for pure Python asynchronous I/O using coroutines
 dev-python/blurb 2.0.0: Tool to create and manage NEWS blurbs for CPython
-dev-python/boltons 25.0.0: Pure-python utilities in the same spirit as the standard library
+dev-python/boltons 25.0.0 26.0.0: Pure-python utilities in the same spirit as the standard library
 dev-python/boolean-py 5.0: Define boolean algebras, create and parse boolean expressions
 dev-python/boto3 1.43.9 1.43.14 1.43.18 1.43.24 1.43.29 1.43.30 1.43.31 1.43.32 1.43.33: The AWS SDK for Python
 dev-python/botocore 1.43.9 1.43.14 1.43.18 1.43.24 1.43.29 1.43.30 1.43.31 1.43.32 1.43.33: Low-level, data-driven core of boto 3
@@ -10982,7 +10982,7 @@ dev-util/makeheaders 0_p20240823 0_p20251008: Tool that automatically generates 
 dev-util/makepp 2.0.99.2: GNU make replacement
 dev-util/marksman 2025.11.25 2026.02.08: LSP language server for editing Markdown files
 dev-util/massif-visualizer 26.04.1 26.04.2: Tool visualising massif data
-dev-util/maturin 1.13.3 1.14.0: Build and publish crates with pyo3, rust-cpython and cffi bindings
+dev-util/maturin 1.13.3 1.14.0 1.14.1: Build and publish crates with pyo3, rust-cpython and cffi bindings
 dev-util/maxcso 1.13.0 9999: Fast cso compressor
 dev-util/mdds 2.1.1-r1 3.0.0 9999: Collection of multi-dimensional data structure and indexing algorithm
 dev-util/meld 3.22.2-r1 3.22.3: A graphical diff and merge tool
@@ -17640,7 +17640,7 @@ sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across s
 sys-devel/dwz 0.16 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260212 13.4.1_p20260422 13.4.1_p20260429 13.4.1_p20260506 13.4.1_p20260513 13.4.1_p20260520 13.4.1_p20260527 13.4.1_p20260603 13.4.1_p20260610 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260213 14.3.1_p20260423 14.3.1_p20260430 14.3.1_p20260507 14.3.1_p20260514 14.3.1_p20260521 14.3.1_p20260528 14.3.1_p20260604 14.3.1_p20260611 14.4.9999 15.2.1_p20251108-r1 15.2.1_p20251122 15.2.1_p20260214 15.2.1_p20260424 15.2.1_p20260501 15.2.1_p20260508 15.2.1_p20260515 15.2.1_p20260522 15.2.1_p20260529 15.2.1_p20260605 15.3.0 15.3.1_p20260612 15.3.9999 16.1.0 16.1.1_p20260502 16.1.1_p20260509 16.1.1_p20260516 16.1.1_p20260523 16.1.1_p20260530 16.1.1_p20260606 16.1.1_p20260613 16.2.9999 17.0.0_p20260426 17.0.0_p20260503 17.0.0_p20260510 17.0.0_p20260517 17.0.0_p20260524 17.0.0_p20260531 17.0.0_p20260607 17.0.0_p20260607-r1 17.0.0_p20260614 17.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260212 13.4.1_p20260422 13.4.1_p20260429 13.4.1_p20260506 13.4.1_p20260513 13.4.1_p20260520 13.4.1_p20260527 13.4.1_p20260603 13.4.1_p20260610 13.4.1_p20260617 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260213 14.3.1_p20260423 14.3.1_p20260430 14.3.1_p20260507 14.3.1_p20260514 14.3.1_p20260521 14.3.1_p20260528 14.3.1_p20260604 14.3.1_p20260611 14.3.1_p20260618 14.4.9999 15.2.1_p20251108-r1 15.2.1_p20251122 15.2.1_p20260214 15.2.1_p20260424 15.2.1_p20260501 15.2.1_p20260508 15.2.1_p20260515 15.2.1_p20260522 15.2.1_p20260529 15.2.1_p20260605 15.3.0 15.3.1_p20260612 15.3.9999 16.1.0 16.1.1_p20260502 16.1.1_p20260509 16.1.1_p20260516 16.1.1_p20260523 16.1.1_p20260530 16.1.1_p20260606 16.1.1_p20260613 16.2.9999 17.0.0_p20260426 17.0.0_p20260503 17.0.0_p20260510 17.0.0_p20260517 17.0.0_p20260524 17.0.0_p20260531 17.0.0_p20260607 17.0.0_p20260607-r1 17.0.0_p20260614 17.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26 1.0: GNU locale utilities
 sys-devel/gnuconfig 20240728 20250710 99999999: Updated config.sub and config.guess file from GNU
