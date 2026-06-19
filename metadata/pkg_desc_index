@@ -1760,7 +1760,7 @@ app-dicts/stardict-xdict-en-zh-big5 2.4.2-r1: Stardict Dictionary English to Tra
 app-dicts/stardict-xdict-en-zh-gb 2.4.2-r1: Stardict Dictionary English to Simplified Chinese (GB)
 app-dicts/stardict-xdict-zh-en-big5 2.4.2-r1: Stardict Dictionary Traditional Chinese (BIG5) to English
 app-dicts/stardict-xdict-zh-en-gb 2.4.2-r1: Stardict Dictionary Simplified Chinese (GB) to English
-app-dicts/verbiste 0.1.48-r1: French conjugation system
+app-dicts/verbiste 0.1.48-r1 0.1.49: French conjugation system
 app-dicts/wordnet 3.1-r1: A lexical database for the English language
 app-dicts/ydpdict 1.0.5: Translator between english, polish, and german using Collins dictionary
 app-doc/a68-jargon 0_pre20251020 9999: Definitions of many terms in the Algol 68 language context
@@ -2415,7 +2415,7 @@ app-emulation/plus42 1.3.13 1.3.15: An Enhanced HP-42S Calculator Simulator
 app-emulation/protontricks 1.13.1 1.14.1: app-emulation/winetricks wrapper for Proton (Steam Play) games
 app-emulation/punes 0.111-r2: Nintendo Entertainment System (NES) emulator
 app-emulation/q4wine 1.4.2: Qt GUI configuration tool for Wine
-app-emulation/qemu 9.2.4 10.0.7 10.1.3-r1 10.2.2 9999: QEMU + Kernel-based Virtual Machine userland tools
+app-emulation/qemu 9.2.4 10.0.7 10.0.10 10.1.3-r1 10.2.2 10.2.3 9999: QEMU + Kernel-based Virtual Machine userland tools
 app-emulation/qemu-guest-agent 8.2.0 9.2.0 10.2.2: QEMU Guest Agent (qemu-ga) for use when running inside a VM
 app-emulation/qemu-init-scripts 0.3.0-r1: Kvm and qemu init scripts
 app-emulation/qtrvsim 0.9.8-r1: RISC-V CPU simulator for education
@@ -4021,10 +4021,10 @@ dev-db/mariadb-connector-c 3.3.8 3.3.15 3.3.17 3.4.5-r1 3.4.7 9999: C client lib
 dev-db/mariadb-connector-odbc 3.1.18 3.2.7-r1 3.2.8: MariaDB Connector/ODBC
 dev-db/mongodb 5.0.32 6.0.27 7.0.28 8.0.8 8.0.12: A high-performance, open source, schema-free document-oriented database
 dev-db/mongodb-compass-bin 1.49.6 1.49.8: GUI for MongoDB
-dev-db/mycli 1.65.0 1.72.1 1.74.0: CLI for MySQL Database with auto-completion and syntax highlighting
+dev-db/mycli 1.65.0 1.74.0 1.74.1: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mydumper 0.20.1.2 0.21.2.2 0.21.3.1: A high-performance multi-threaded backup (and restore) toolset for MySQL
 dev-db/myodbc 8.0.32: ODBC driver for MySQL
-dev-db/mysql 8.0.44 8.0.45 8.0.46 8.4.8 8.4.9: Fast, multi-threaded, multi-user SQL database server
+dev-db/mysql 8.0.45 8.0.46 8.0.46-r1 8.4.9 8.4.10: Fast, multi-threaded, multi-user SQL database server
 dev-db/mysql++ 3.3.0: C++ API interface to the MySQL database
 dev-db/mysql-connector-c 8.0.36-r1 8.0.41-r1: C client library for MariaDB/MySQL
 dev-db/mysql-connector-c++ 9.4.0 9.6.0 9.7.0: MySQL database connector for C++ (mimics JDBC 4.0 API)
@@ -14837,7 +14837,7 @@ net-im/rocketchat-desktop-bin 3.9.10-r1 4.1.1-r1: The Ultimate Open Source Web C
 net-im/sendxmpp 1.24: A perl-script to send xmpp (jabber), similar to what mail(1) does for mail
 net-im/sendxmpp-scala 1.2.0 1.2.1 9999: Send XMPP (Jabber) messages via command line
 net-im/signal-cli-bin 0.13.9 0.13.19 0.14.1: Send and receive messages of Signal Messenger over a command line interface
-net-im/signal-desktop-bin 8.14.0: Allows you to send and receive messages of Signal Messenger on your computer
+net-im/signal-desktop-bin 8.15.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/slack 4.49.89 4.50.121: Team collaboration tool
 net-im/spectrum2 2.2.1-r2: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
@@ -14861,7 +14861,7 @@ net-irc/emech 3.0.99_p20221123: UNIX compatible IRC bot programmed in C
 net-irc/ergo 2.17.0 2.18.0: Modern IRC server written in Go
 net-irc/hexchat 2.16.2-r1 2.16.2-r2: Graphical IRC client based on XChat
 net-irc/ii 1.9 2.0 9999: A minimalist FIFO and filesystem-based IRC client
-net-irc/inspircd 4.9.0 4.11.0: Inspire IRCd - The Stable, High-Performance Modular IRCd
+net-irc/inspircd 4.11.0: Inspire IRCd - The Stable, High-Performance Modular IRCd
 net-irc/ircii 20240111 20240918 20260115: An IRC and ICB client that runs under most UNIX platforms
 net-irc/ircmap 0.99-r1: Scripts to treate diagrams of IRC networks using the LINKS command
 net-irc/ircstats 1.2: IRCStats is a Linux log analyzer
@@ -16679,6 +16679,7 @@ sec-keys/openpgp-keys-martinlambers 20260120: OpenPGP key used by Martin Lambers
 sec-keys/openpgp-keys-martinmares 20260120: OpenPGP key used by Martin Mareš
 sec-keys/openpgp-keys-mathieudesnoyers 20250909: OpenPGP keys used by Mathieu Desnoyers
 sec-keys/openpgp-keys-maxbaz 20260207: OpenPGP key used by Max Baz
+sec-keys/openpgp-keys-mdroth 20260619: OpenPGP key used by Michael Roth (mdroth)
 sec-keys/openpgp-keys-midipix 20250517: OpenPGP keys used to sign midipix releases
 sec-keys/openpgp-keys-milanbroz 20260121: OpenPGP key used by Milan Broz
 sec-keys/openpgp-keys-miniupnp 20201006: OpenPGP keys used to sign miniupnp* packages
@@ -17688,7 +17689,7 @@ sys-firmware/tt-s2-6400-firmware 0.5.1: Firmware for the Technotrend S2-6400 DVB
 sys-firmware/vgabios 0.7a 0.7a-r1 0.8a 0.8a-r1: VGA BIOS implementation
 sys-firmware/zd1201-firmware 0.14-r1: Firmware for ZyDAS 1201 based USB 802.11b Network WiFi devices
 sys-firmware/zd1211-firmware 1.5-r1: Firmware for ZyDAS ZD1211 USB-WLAN devices supported by the zd1211rw driver
-sys-fs/android-file-transfer-linux 4.3_p20250109 4.4 4.5 9999: Android File Transfer for Linux
+sys-fs/android-file-transfer-linux 4.5 4.5-r1 9999: Android File Transfer for Linux
 sys-fs/apfsprogs 0_pre20240521: Experimental APFS tools for linux
 sys-fs/archivemount 0.9.1: Mount archives using libarchive and FUSE
 sys-fs/arm-fdisk 3.0.6-r1: edit disk partitions on Acorn machines
