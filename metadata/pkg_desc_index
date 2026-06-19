@@ -8091,7 +8091,7 @@ dev-php/pecl-memcached 3.3.0 3.4.0: Interface PHP with memcached via libmemcache
 dev-php/pecl-mongodb 1.16.2-r1: MongoDB database driver for PHP
 dev-php/pecl-parallel 1.2.7-r1 1.2.14: A succint parallel concurrency API for PHP
 dev-php/pecl-radius 1.4.0_beta1-r4: Provides support for RADIUS authentication (RFC 2865) and accounting (RFC 2866)
-dev-php/pecl-raphf 2.0.1-r3: A reusable, persistent handle and resource factory API
+dev-php/pecl-raphf 2.0.1-r3 2.0.2: A reusable, persistent handle and resource factory API
 dev-php/pecl-redis 6.1.0 6.3.0: PHP extension for interfacing with Redis
 dev-php/pecl-rrd 2.0.3: RRDtool bindings for PHP
 dev-php/pecl-ssh2 1.4.1-r1 9999: PHP bindings for the libssh2 library
