@@ -9656,7 +9656,7 @@ dev-python/trove-classifiers 2026.1.14.14 2026.4.28.13 2026.5.7.17 2026.5.20.19 
 dev-python/trustme 1.2.1: #1 quality TLS certs while you wait, for the discerning tester
 dev-python/truststore 0.10.4: Verify certificates using native system trust stores
 dev-python/tubes 0.2.1: Flow control and backpressure for event-driven applications
-dev-python/tuf 6.0.0 7.0.0: A secure updater framework for Python
+dev-python/tuf 7.0.0: A secure updater framework for Python
 dev-python/twine 6.2.0: Collection of utilities for publishing packages on PyPI
 dev-python/twisted 25.5.0-r1 26.4.0_rc2 26.4.0: An asynchronous networking framework written in Python
 dev-python/twython 3.9.1-r1: An easy way to access Twitter data with Python
