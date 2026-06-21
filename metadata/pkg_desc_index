@@ -2837,7 +2837,7 @@ app-misc/joy2key 1.6.3-r2: An application that translates joystick events to key
 app-misc/joymouse 0.5-r2: An application that translates joystick events to mouse events
 app-misc/jp 0.2.1: Command line interface to JMESPath
 app-misc/jpipe 0.2.0-r1: Command line interface to JMESPath
-app-misc/jq 1.7.1-r1 1.8.1: A lightweight and flexible command-line JSON processor
+app-misc/jq 1.7.1-r1 1.8.1 1.8.2: A lightweight and flexible command-line JSON processor
 app-misc/kanatest 0.4.8: Visual flashcard tool for memorizing the Japanese Hiragana and Katakana alphabet
 app-misc/khal 0.13.0 0.14.0: A CalDAV based calendar
 app-misc/khard 0.19.1 0.20.1: Console CardDAV client
@@ -4023,7 +4023,7 @@ dev-db/mariadb-connector-c 3.3.8 3.3.15 3.3.17 3.4.5-r1 3.4.7 9999: C client lib
 dev-db/mariadb-connector-odbc 3.1.18 3.2.7-r1 3.2.8: MariaDB Connector/ODBC
 dev-db/mongodb 5.0.32 6.0.27 7.0.28 8.0.8 8.0.12: A high-performance, open source, schema-free document-oriented database
 dev-db/mongodb-compass-bin 1.49.6 1.49.8: GUI for MongoDB
-dev-db/mycli 1.65.0 1.74.0 1.74.1: CLI for MySQL Database with auto-completion and syntax highlighting
+dev-db/mycli 1.65.0 1.74.1 1.76.0: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mydumper 0.20.1.2 0.21.2.2 0.21.3.1: A high-performance multi-threaded backup (and restore) toolset for MySQL
 dev-db/myodbc 8.0.32: ODBC driver for MySQL
 dev-db/mysql 8.0.45 8.0.46 8.0.46-r1 8.4.9 8.4.10: Fast, multi-threaded, multi-user SQL database server
@@ -5392,7 +5392,7 @@ dev-libs/capnproto 1.0.2 1.1.0 1.4.0: RPC/Serialization system with capabilities
 dev-libs/capstone 5.0.6-r1 5.0.7 6.0.0_alpha4-r1 6.0.0_alpha5-r1 6.0.0_alpha6 6.0.0_alpha7 9999: disassembly/disassembler framework + bindings
 dev-libs/castxml 0.7.0: C-family abstract syntax tree XML output tool
 dev-libs/cdk 5.0.20230201 5.0.20230201-r2 5.0.20240331-r1 5.0.20240619-r2 5.0.20250116-r1 5.0.20251014 5.0.20260119: A library of curses widgets
-dev-libs/cereal 1.3.2-r3: Header-only C++11 serialization library
+dev-libs/cereal 1.3.2-r4: Header-only C++11 serialization library
 dev-libs/cgilib 0.7-r2: Simple and lightweight interface to the CGI for C and C++ programs
 dev-libs/cglm 0.9.6: OpenGL Mathematics (glm) for C
 dev-libs/cgreen 1.6.4: Unit test and mocking framework for C and C++
@@ -5828,7 +5828,7 @@ dev-libs/qr-code-generator 1.8.0 1.8.0-r1: QR Code Generator Library in Multiple
 dev-libs/qtkeychain 0.16.0: Qt API for storing passwords securely
 dev-libs/quazip 1.5: Simple C++ wrapper over Gilles Vollant's ZIP/UNZIP package
 dev-libs/quickjs-ng 0.14.0: QuickJS, the Next Generation: a mighty JavaScript engine
-dev-libs/qxlsx 1.5.0: Excel file(*.xlsx) reader/writer library using Qt
+dev-libs/qxlsx 1.5.0 1.5.1.1: Excel file(*.xlsx) reader/writer library using Qt
 dev-libs/raft 0.22.1: C implementation of the Raft consensus protocol
 dev-libs/rapidjson 1.1.0-r5 1.1.0_p20250205 9999: A fast JSON parser/generator for C++ with both SAX/DOM style API
 dev-libs/rasqal 0.9.33-r3 0.9.33-r4 0.9.33-r5: Library that handles Resource Description Framework (RDF)
@@ -9777,6 +9777,7 @@ dev-python/yappi 1.7.6: Yet Another Python Profiler
 dev-python/yapsy 1.12.2-r2: A fat-free DIY Python plugin management toolkit
 dev-python/yara-python 4.5.4 4.5.5 9999: Python interface for a malware identification and classification tool
 dev-python/yarl 1.23.0 1.24.2: Yet another URL library
+dev-python/yaspin 3.4.0: Yet Another Terminal Spinner
 dev-python/yattag 1.16.1: Python library to generate HTML or XML in a readable, concise and pythonic way
 dev-python/yaxmldiff 0.2.0: Yet Another XML Differ
 dev-python/youtube-search-python 1.6.6-r3: Get YouTube video information using link WITHOUT YouTube Data API v3
@@ -10974,9 +10975,9 @@ dev-util/local-log4j-vuln-scanner 0.10: simple local log4j vulnerability scanner
 dev-util/lockrun 20120508-r2 20240415: Run cronjobs with overrun protection
 dev-util/log4shelldetect 0.0.7: Check for java programs vulnerable to log4shell
 dev-util/lsuio 0.2.0-r2: List available userspace I/O (UIO) devices
-dev-util/lttng-modules 2.13.16 2.13.20 2.13.23 2.14.1 2.14.4 2.14.5: LTTng Kernel Tracer Modules
-dev-util/lttng-tools 2.12.17-r2 2.13.15-r2 2.14.0-r1 2.14.1: Linux Trace Toolkit - next generation
-dev-util/lttng-ust 2.12.10 2.13.9 2.13.10 2.14.0 2.14.1 2.14.2: Linux Trace Toolkit - UST library
+dev-util/lttng-modules 2.13.16 2.13.23 2.14.5 2.14.6: LTTng Kernel Tracer Modules
+dev-util/lttng-tools 2.13.15-r2 2.14.1 2.14.2: Linux Trace Toolkit - next generation
+dev-util/lttng-ust 2.12.10 2.13.9 2.13.10 2.14.0 2.14.2: Linux Trace Toolkit - UST library
 dev-util/lttng-ust-compat 2.12.10: Linux Trace Toolkit - UST library
 dev-util/lv2lint 0.16.2: Check whether a given LV2 plugin is up to the specification
 dev-util/lxqt-build-tools 2.3.0 2.4.0: LXQt Build Tools
@@ -16632,7 +16633,7 @@ sec-keys/openpgp-keys-janwassenberg 20260503: OpenPGP key used by Jan Wassenberg
 sec-keys/openpgp-keys-jariruusu 20240521: OpenPGP key used by Jari Ruusu
 sec-keys/openpgp-keys-jberkenbilt 1: OpenPGP key of Jay Berkenbilt (QPDF maintainer)
 sec-keys/openpgp-keys-jedisct1 20210416: OpenPGP keys used by Frank Denis (jedisct1)
-sec-keys/openpgp-keys-jeremiegalarneau 20250910: OpenPGP keys used by Jérémie Galarneau
+sec-keys/openpgp-keys-jeremiegalarneau 20250910 20260620: OpenPGP keys used by Jérémie Galarneau
 sec-keys/openpgp-keys-jimmeyering 20220407: OpenPGP keys used by Jim Meyering
 sec-keys/openpgp-keys-joelrosdahl 20220409: OpenPGP keys used by Joel Rosdahl
 sec-keys/openpgp-keys-johnogness 20260524: OpenPGP keys used by John Ogness
