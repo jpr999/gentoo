@@ -15832,7 +15832,7 @@ net-wireless/soapyremote 0.5.2 9999: Soapy SDR remote module
 net-wireless/soapyrtlsdr 0.3.3-r3 9999: SoapySDR RTL-SDR Support Module
 net-wireless/soapysdr 0.8.1-r2 0.8.1-r3 9999: vendor and platform neutral SDR support library
 net-wireless/soapysdrplay 0_p20220120 0.5.2 9999: Soapy SDR plugin for SDRPlay
-net-wireless/soapyuhd 0.4.1_p20251220 9999: Soapy SDR plugins for UHD supported SDR devices
+net-wireless/soapyuhd 0.4.1_p20251220 0.4.1_p20251220-r1 9999: Soapy SDR plugins for UHD supported SDR devices
 net-wireless/suscan 0.3.0_p20251029: a realtime DSP processing library
 net-wireless/suwidgets 0.3.0_p20251029: graphical library containing all SigDigger's custom widgets
 net-wireless/tempestsdr 0.0_p20260404 9999: Remote video eavesdropping using a software-defined radio platform
@@ -18356,7 +18356,7 @@ www-apps/phpBB 3.3.17: An open-source PHP-based bulletin board package
 www-apps/phpsysinfo 3.4.4 3.4.5: A customizable PHP script that displays information about your system nicely
 www-apps/piwigo 16.3.0 16.4.0: a photo gallery software for the web
 www-apps/postfixadmin 3.3.16: Web Based Management tool for Postfix style virtual domains and users
-www-apps/prowlarr-bin 2.4.0.5397: An indexer manager/proxy to integrate with your various PVR apps
+www-apps/prowlarr-bin 2.5.0.5422: An indexer manager/proxy to integrate with your various PVR apps
 www-apps/radarr-bin 6.2.1.10461: A fork of Sonarr to work with movies a la Couchpotato
 www-apps/radicale 3.7.4 3.7.5: A simple CalDAV calendar server
 www-apps/readarr-bin 0.4.18.2805: An ebook and audiobook collection manager for Usenet and BitTorrent users
