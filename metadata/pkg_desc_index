@@ -9702,8 +9702,8 @@ dev-python/urwidtrees 1.0.3-r2: Tree widgets for urwid
 dev-python/userpath 1.9.2: Cross-platform tool for adding locations to the user PATH
 dev-python/utidylib 1.0.0: TidyLib Python wrapper
 dev-python/uuid6 2025.0.1: New time-based UUID formats which are suited for use as a database key
-dev-python/uv 0.11.12 0.11.14 0.11.16 0.11.19 0.11.20 0.11.21 0.11.22 0.11.23 9999: A Python package installer and resolver, written in Rust
-dev-python/uv-build 0.11.12 0.11.14 0.11.16 0.11.19 0.11.20 0.11.21 0.11.22 0.11.23: PEP517 uv build backend
+dev-python/uv 0.11.16 0.11.19 0.11.21 0.11.23 9999: A Python package installer and resolver, written in Rust
+dev-python/uv-build 0.11.16 0.11.19 0.11.21 0.11.23: PEP517 uv build backend
 dev-python/uv-dynamic-versioning 0.14.0: Dynamic versioning based on VCS tags for uv/hatch project
 dev-python/uvicorn 0.47.0 0.48.0 0.49.0: Lightning-fast ASGI server implementation
 dev-python/uvloop 0.22.1: Ultra-fast implementation of asyncio event loop on top of libuv
