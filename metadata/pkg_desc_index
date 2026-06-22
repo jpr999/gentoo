@@ -18170,7 +18170,7 @@ virtual/libcrypt 1-r2 2 2-r1: Virtual for libcrypt.so
 virtual/libelf 2-r1 3-r1: Virtual for libelf.so.1 provider dev-libs/elfutils
 virtual/libiconv 0-r2: Virtual for the GNU conversion library
 virtual/libintl 0-r2: Virtual for the GNU Internationalization Library
-virtual/libudev 251-r2: Virtual for libudev providers
+virtual/libudev 251-r2 257: Virtual for libudev providers
 virtual/libusb 0-r2 1-r2: Virtual for libusb
 virtual/linux-sources 3-r8 3-r9: Virtual for Linux kernel sources
 virtual/logger 0-r3: Virtual for system loggers
@@ -19334,6 +19334,7 @@ xfce-base/xfce4-session 4.20.4 4.21.1: A session manager for the Xfce desktop en
 xfce-base/xfce4-settings 4.20.4 4.21.1 4.21.2: Configuration system for the Xfce desktop environment
 xfce-base/xfconf 4.20.0 4.21.2: A configuration management system for Xfce
 xfce-base/xfdesktop 4.20.2 4.21.0: Desktop manager for the Xfce desktop environment
+xfce-base/xfwl4 4.21.0: Xfce's [experimental] Wayland Compositor
 xfce-base/xfwm4 4.20.0: Window manager for the Xfce desktop environment
 xfce-extra/thunar-archive-plugin 0.6.0: Archive plug-in for the Thunar filemanager
 xfce-extra/thunar-media-tags-plugin 0.6.0: Adds special features for media files to the Thunar File Manager
