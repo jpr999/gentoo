@@ -11083,7 +11083,7 @@ dev-util/massif-visualizer 26.04.1 26.04.2: Tool visualising massif data
 dev-util/maturin 1.13.3 1.14.0 1.14.1: Build and publish crates with pyo3, rust-cpython and cffi bindings
 dev-util/maxcso 1.13.0 9999: Fast cso compressor
 dev-util/mdds 2.1.1-r1 3.0.0 9999: Collection of multi-dimensional data structure and indexing algorithm
-dev-util/meld 3.22.2-r1 3.22.3: A graphical diff and merge tool
+dev-util/meld 3.22.3 3.24.0: A graphical diff and merge tool
 dev-util/memprof 0.6.2-r2: Profiling and leak detection tool
 dev-util/mesa_clc 25.3.6 26.0.7 26.0.8 26.1.1 26.1.2 9999: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/mig 1.8_p20231217 1.8_p20260123 9999: GNU Mach 3.0 interface generator (IDL compiler)
