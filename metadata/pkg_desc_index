@@ -9568,7 +9568,7 @@ dev-python/setuptools 79.0.1 82.0.1: Collection of extensions to Distutils
 dev-python/setuptools-gettext 0.1.18: Setuptools plugin for building mo files
 dev-python/setuptools-git 1.2-r3: Setuptools revision control system plugin for Git
 dev-python/setuptools-rust 1.12.0 1.12.1: A plugin for setuptools to build Rust Python extensions
-dev-python/setuptools-scm 9.2.2 10.0.5 10.1.1: Manage versions by scm tags via setuptools
+dev-python/setuptools-scm 9.2.2 10.0.5 10.1.1 10.1.2: Manage versions by scm tags via setuptools
 dev-python/sexpdata 1.0.2: a simple S-expression parser/serializer
 dev-python/sgmllib3k 1.0.0-r1: Py3k port of sgmllib
 dev-python/sh 2.2.2 2.2.3 2.2.4 2.3.0: Python subprocess interface
@@ -9807,7 +9807,7 @@ dev-python/validators 0.35.0: Python Data Validation for Humans
 dev-python/valkey 6.1.1: Python client for Valkey forked from redis-py
 dev-python/varlink 31.0.0: Python implementation of the Varlink protocol
 dev-python/vcrpy 8.1.1 8.2.0 8.2.1: Automatically mock your HTTP interactions to simplify and speed up testing
-dev-python/vcs-versioning 1.1.1 2.0.1: Core VCS versioning functionality from setuptools-scm
+dev-python/vcs-versioning 1.1.1 2.1.0: Core VCS versioning functionality from setuptools-scm
 dev-python/vcsgraph 0.3.0: Graph algorithms for version control systems
 dev-python/vdf 4.0: A module for (de)serialization to and from VDF, Valve's key-value text format
 dev-python/vdirsyncer 0.20.0: Synchronize calendars and contacts
@@ -15302,7 +15302,7 @@ net-misc/connman-json-client 1.0_p20150721-r3: An ncurses UI for connman
 net-misc/connman-notify 0_pre20191003-r3: Desktop notification integration for connman
 net-misc/connman-ui 0_p20150622-r1: A full-featured GTK based trayicon UI for ConnMan
 net-misc/croc 10.2.4 10.2.5 10.2.7: Easily and securely send things from one computer to another
-net-misc/curl 8.19.0 8.20.0 9999: A Client that groks URLs
+net-misc/curl 8.19.0 8.20.0 8.20.0-r1 9999: A Client that groks URLs
 net-misc/datapipe 1.0-r2: Bind a local port and connect it to a remote socket
 net-misc/dcetest 2.0: dcetest is a clone of the Windows rpcinfo
 net-misc/dhcdrop 0.5-r1 0.5-r2: Effectively suppresses illegal DHCP servers on the LAN
