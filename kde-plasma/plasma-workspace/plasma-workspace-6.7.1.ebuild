@@ -75,6 +75,7 @@ COMMON_DEPEND="
 	>=kde-frameworks/solid-${KFMIN}:6
 	>=kde-plasma/breeze-${KDE_CATV}:6
 	>=kde-plasma/knighttime-${KDE_CATV}:6
+	>=kde-plasma/kscreenlocker-${KDE_CATV}:6
 	>=kde-plasma/kwayland-${KDE_CATV}:6
 	>=kde-plasma/kwin-${KDE_CATV}:6
 	>=kde-plasma/layer-shell-qt-${KDE_CATV}:6
@@ -97,7 +98,6 @@ COMMON_DEPEND="
 	wallpaper-metadata? ( kde-apps/libkexiv2:6 )
 	X? (
 		>=dev-qt/qtbase-${QTMIN}:6=[X]
-		>=kde-plasma/kscreenlocker-${KDE_CATV}:6
 		x11-libs/libICE
 		x11-libs/libSM
 		x11-libs/libX11
@@ -163,7 +163,6 @@ PDEPEND="
 
 PATCHES=(
 	"${FILESDIR}/${PN}-5.22.5-krunner-cwd-at-home.patch" # TODO upstream: KDE-bug 432975, bug 767478
-	"${FILESDIR}/${P}-fix-plasma-apply-lookandfeel.patch" # in 6.7.1
 )
 
 src_prepare() {
