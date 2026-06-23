@@ -12675,7 +12675,6 @@ llvm-core/clang-common 16.0.6-r6 17.0.6-r10 18.1.8-r3 19.1.7 20.1.8-r1 21.1.8 22
 llvm-core/clang-linker-config 16 17 18 19 20 21 22 23: Default linker configuration for clang
 llvm-core/clang-toolchain-symlinks 16-r2 17 18 19 20 21 22 23: Symlinks to use Clang on GCC-free system
 llvm-core/flang 21.1.8 22.1.8 23.0.0_pre20260605 23.0.0.9999: LLVM's Fortran frontend
-llvm-core/libclc 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.0.0_pre20260605 23.0.0.9999: OpenCL C library
 llvm-core/lld 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8-r1 22.1.8-r1 23.0.0_pre20260605 23.0.0.9999: The LLVM linker (link editor)
 llvm-core/lld-toolchain-symlinks 16-r2 17 18 19 20 21 22 23: Symlinks to use LLD on binutils-free system
 llvm-core/lldb 16.0.6-r1 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.0.0_pre20260605 23.0.0.9999: The LLVM debugger
@@ -12693,6 +12692,7 @@ llvm-runtimes/compiler-rt 16.0.6-r6 17.0.6-r2 18.1.8-r2 19.1.7 20.1.8-r1 21.1.8 
 llvm-runtimes/compiler-rt-sanitizers 16.0.6-r1 17.0.6-r1 18.1.8-r6 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.0.0_pre20260605 23.0.0.9999: Compiler runtime libraries for clang (sanitizers & xray)
 llvm-runtimes/flang-rt 21.1.8 22.1.8 23.0.0_pre20260605 23.0.0.9999: LLVM's Fortran runtime
 llvm-runtimes/libatomic-stub 0: Stub library which allows compiler-rt to replace libatomic
+llvm-runtimes/libclc 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.0.0_pre20260605 23.0.0.9999: OpenCL C library
 llvm-runtimes/libcxx 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.0.0_pre20260605 23.0.0.9999: New implementation of the C++ standard library, targeting C++11
 llvm-runtimes/libcxxabi 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.0.0_pre20260605 23.0.0.9999: Low level support for a standard C++ library
 llvm-runtimes/libgcc 19.1.7 19.1.7-r1 20.1.8 21.1.8 22.1.8 23.0.0_pre20260605 23.0.0.9999: Compiler runtime library for clang, compatible with libgcc_s
