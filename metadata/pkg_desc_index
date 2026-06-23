@@ -4962,7 +4962,7 @@ dev-java/apiguardian-api 1.1.2-r1: @org.apiguardian.api.API Java annotation prov
 dev-java/asm 9.7.1-r1 9.9.1 9.10.1: Bytecode manipulation framework for Java
 dev-java/asm-jdk-bridge 0.0.13: A Bridge to Translate ASM From and to The OpenJDK Class File API
 dev-java/aspectj 1.9.7-r1: A seamless aspect-oriented extension to the Java programming language
-dev-java/assertj-core 3.10.0 3.27.6: Rich and fluent assertions for testing for Java
+dev-java/assertj-core 3.10.0 3.27.6 3.27.7: Rich and fluent assertions for testing for Java
 dev-java/auto-service-annotations 1.1.1: Provider-configuration files for ServiceLoader
 dev-java/auto-value 1.11.1: Immutable value-type code generation for Java 1.7+
 dev-java/batik 1.18-r2: XML Graphics Batik
