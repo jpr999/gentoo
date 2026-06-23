@@ -138,7 +138,7 @@ src_install() {
 
 	# .asy files
 	insinto /usr/share/${PN}
-	doins -r base/*.asy base/*.js base/*.sh base/*.ps base/shaders base/webgl
+	doins -r base/*.asy base/*.js base/*.sh base/*.ps base/collections base/shaders base/webgl
 	chmod 755 "${D}"/usr/share/${PN}/shaders/*
 
 	# documentation
