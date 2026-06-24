@@ -5,7 +5,7 @@ EAPI=8
 
 DISTUTILS_USE_PEP517=hatchling
 PYPI_VERIFY_REPO=https://github.com/tox-dev/tox
-PYTHON_COMPAT=( python3_{11..14} pypy3_11 )
+PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
@@ -18,7 +18,7 @@ HOMEPAGE="
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~alpha amd64 arm arm64 ~hppa ~loong ~mips ppc ppc64 ~riscv ~s390 ~sparc x86"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~m68k ~ppc ~ppc64 ~riscv ~s390 ~x86"
 
 RDEPEND="
 	dev-python/cachetools[${PYTHON_USEDEP}]
@@ -28,6 +28,7 @@ RDEPEND="
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]
 	dev-python/pyproject-api[${PYTHON_USEDEP}]
+	dev-python/python-discovery[${PYTHON_USEDEP}]
 	dev-python/tomli-w[${PYTHON_USEDEP}]
 	dev-python/virtualenv[${PYTHON_USEDEP}]
 "
@@ -40,13 +41,12 @@ BDEPEND="
 		dev-python/distlib[${PYTHON_USEDEP}]
 		dev-python/psutil[${PYTHON_USEDEP}]
 		dev-python/re-assert[${PYTHON_USEDEP}]
-		$(python_gen_cond_dep '
-			dev-python/time-machine[${PYTHON_USEDEP}]
-		' 'python*')
 	)
 "
 
-EPYTEST_PLUGINS=( pytest-{mock,rerunfailures,timeout,xdist} )
+EPYTEST_PLUGINS=( pytest-{mock,rerunfailures,timeout,xdist} time-machine )
+# upstream timeouts are quite short
+: ${EPYTEST_TIMEOUT:=180}
 # xdist seems to mess up state between successive implementation runs
 distutils_enable_tests pytest
 
@@ -68,27 +68,13 @@ python_test() {
 		tests/tox_env/python/virtual_env/package/test_package_cmd_builder.py::test_build_wheel_external
 		tests/tox_env/python/virtual_env/package/test_package_cmd_builder.py::test_run_installpkg_targz
 		tests/tox_env/python/virtual_env/package/test_package_pyproject.py::test_pyproject_installpkg_pep517_envs
+		# require tombi
+		tests/session/cmd/test_schema.py::test_schema_tombi_lint
 	)
 	local EPYTEST_IGNORE=(
 		# requires devpi*
 		tests/test_provision.py
 	)
-
-	case ${EPYTHON} in
-		python*)
-			local EPYTEST_PLUGINS=( "${EPYTEST_PLUGINS[@]}" time-machine )
-			;;
-		pypy3*)
-			EPYTEST_DESELECT+=(
-				'tests/tox_env/python/pip/test_pip_install.py::test_constrain_package_deps[explicit-True-True]'
-				'tests/tox_env/python/pip/test_pip_install.py::test_constrain_package_deps[requirements-True-True]'
-				'tests/tox_env/python/pip/test_pip_install.py::test_constrain_package_deps[constraints-True-True]'
-				'tests/tox_env/python/pip/test_pip_install.py::test_constrain_package_deps[explicit+requirements-True-True]'
-				'tests/tox_env/python/pip/test_pip_install.py::test_constrain_package_deps[requirements_indirect-True-True]'
-				'tests/tox_env/python/pip/test_pip_install.py::test_constrain_package_deps[requirements_constraints_indirect-True-True]'
-			)
-			;;
-	esac
 
 	epytest -o addopts=
 }
