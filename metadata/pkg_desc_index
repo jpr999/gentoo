@@ -1396,7 +1396,7 @@ app-containers/earthly 0.8.16-r1: Build automation tool that executes in contain
 app-containers/flannel 0.26.3: An etcd backed network fabric for containers
 app-containers/grype 0.59.1 0.61.0 0.72.0 0.73.0 0.79.3 0.86.1: A vulnerability scanner for container images and filesystems
 app-containers/img 0.5.11: Standalone daemon-less unprivileged Dockerfile and OCI container image builder
-app-containers/incus 6.0.5-r1 6.0.6 6.21 6.22 6.23 7.0.0 9999: Modern, secure and powerful system container and virtual machine manager
+app-containers/incus 6.0.5-r1 6.0.6 6.23 7.0.0 9999: Modern, secure and powerful system container and virtual machine manager
 app-containers/k3d 5.8.3 5.9.0: k3d creates k3s clusters in docker
 app-containers/kompose 1.35.0 1.38.0: Tool to move from docker-compose to Kubernetes
 app-containers/lxc 5.0.3 6.0.5 6.0.6 7.0.0: A userspace interface for the Linux kernel containment features
@@ -3212,7 +3212,7 @@ app-text/bogosort 0.4.2-r1: A file sorting program which uses the bogosort algor
 app-text/build-docbook-catalog 2.3-r1 2.4: DocBook XML catalog auto-updater
 app-text/c2ps 4.0: Generates a beautified ps document from a source file (c/c++)
 app-text/calibre 8.9.0 8.15.0: Ebook management application
-app-text/capyt 1.1.1-r1 1.2.1 1.2.2: A python3 CLI utility to interface with cpy.pt
+app-text/capyt 1.2.2: A python3 CLI utility to interface with cpy.pt
 app-text/catdoc 0.95-r1: Converter for Microsoft Word, Excel, PowerPoint and RTF files to text
 app-text/cb2bib 2.0.3: Tool for extracting unformatted bibliographic references
 app-text/cedilla 0.7-r1: UTF-8 to postscript converter
@@ -13608,7 +13608,7 @@ media-libs/nas 1.9.5-r2: Network Audio System
 media-libs/netpbm 11.2.19 11.2.22 11.14.1 9999: A set of utilities for converting to/from the netpbm (and related) formats
 media-libs/noise-suppression-for-voice 1.10-r2 9999: A real-time noise suppression plugin for voice
 media-libs/nv-codec-headers 12.1.14.0 12.2.72.0 13.0.19.0: FFmpeg version of headers required to interface with Nvidias codec APIs
-media-libs/nvidia-vaapi-driver 0.0.16 0.0.17: A VA-API implemention using NVIDIA's NVDEC
+media-libs/nvidia-vaapi-driver 0.0.17: A VA-API implemention using NVIDIA's NVDEC
 media-libs/oidn 2.3.2-r1 2.3.3-r1: Intel Open Image Denoise library
 media-libs/openal 1.24.3 1.25.2: Software implementation of the OpenAL 3D audio API
 media-libs/opencollada 1.6.68-r2: Stream based read/write library for COLLADA files
@@ -14224,7 +14224,7 @@ media-sound/musique 1.12.1_p20240628: Qt music player
 media-sound/ncmpc 0.51 0.52: Ncurses client for the Music Player Daemon (MPD)
 media-sound/ncmpcpp 0.10.1-r1 9999: Featureful ncurses based MPD client inspired by ncmpc
 media-sound/ncpamixer 1.3.8: ncurses PulseAudio Mixer
-media-sound/ncspot 1.3.3 1.3.4: ncurses Spotify client written in Rust using librespot
+media-sound/ncspot 1.3.4: ncurses Spotify client written in Rust using librespot
 media-sound/nickvision-tagger 2024.6.0: An easy-to-use music tag (metadata) editor
 media-sound/normalize 0.7.7-r1 0.7.7-r2: Audio file volume normalizer
 media-sound/ogg2mp3 0.6.1-r1: Perl script to convert Ogg Vorbis files to MP3 files
@@ -14276,7 +14276,7 @@ media-sound/rawrec 0.9.991: CLI program to play and record audiofiles
 media-sound/rcenter 0.6.2-r1: Rcenter - A program to control the EMU10K Remote Control
 media-sound/reaper-bin 7.61: Digital audio workstation
 media-sound/redoflacs 1.1.0: Bash commandline flac compressor, verifier, organizer, analyzer, retagger
-media-sound/rescrobbled 0.8.0 0.9.0: MPRIS music scrobbler daemon
+media-sound/rescrobbled 0.9.0 0.10.0: MPRIS music scrobbler daemon
 media-sound/rexima 1.4-r2: A curses-based interactive mixer which can also be used from the command-line
 media-sound/rhythmbox 3.4.8-r2 3.4.9 3.4.9-r1 3.4.9-r2: Music management and playback software for GNOME
 media-sound/rip 1.07-r3: Command-line based audio CD ripper and mp3 encoder
@@ -14506,7 +14506,7 @@ media-video/ushare 2.1_p20250817: uShare is a UPnP (TM) A/V & DLNA Media Server
 media-video/v4l2loopback 0.13.1 0.15.0 0.15.1 0.15.3 9999: v4l2 loopback device whose output is its own input
 media-video/vamps 0.99.2-r2: Very fast requantisizing tool for backup DVDs
 media-video/vcdimager 2.0.1-r1 2.0.1-r2: GNU VCDimager
-media-video/vcsi 7.0.16 7.0.17: Create thumbnail sheets from video files
+media-video/vcsi 7.0.17: Create thumbnail sheets from video files
 media-video/vdr 2.7.7 2.7.9 2.8.1 2.8.2: Video Disk Recorder - turns a pc into a powerful set top box for DVB
 media-video/vdrsync 0.1.3_pre050322-r2: converting vdr-recordings to mpeg2, dvd or other similar formats
 media-video/vdrtools-genindex 0.1.3-r2: VDR: genindex Script
@@ -14519,7 +14519,7 @@ media-video/x264-encoder 0.0.20240513-r1 9999: A free commandline encoder for X2
 media-video/xine-ui 0.99.13-r1 0.99.14: Xine movie player
 media-video/xvattr 1.3-r4: X11 XVideo Querying/Setting Tool from Ogle project
 media-video/xvid4conf 1.12-r1: GTK2-configuration dialog for xvid4
-media-video/yle-dl 20250730 20260520: Download media files from Yle Areena
+media-video/yle-dl 20260520: Download media files from Yle Areena
 net-analyzer/2ping 4.5.1-r1: A bi-directional ping utility
 net-analyzer/alive 2.0.5-r100: Periodic ping program
 net-analyzer/apinger 0.6.1: Alarm Pinger
