@@ -2617,7 +2617,7 @@ app-i18n/tomoe-gtk 0.6.0-r7: Tomoe GTK+ interface widget library
 app-i18n/transifex-client 1.6.14 1.6.17: The Transifex command-line client
 app-i18n/translate-shell 0.9.7.1: Online command-line translator
 app-i18n/uchardet 0.0.8: Encoding detector library
-app-i18n/uim 1.8.9-r2 1.9.6: Multilingual input method framework
+app-i18n/uim 1.9.6: Multilingual input method framework
 app-i18n/uim-tomoe-gtk 0.6.0: Japanese input method Tomoe IMEngine for uim
 app-i18n/unicode-cldr 47.0 48.0 48.1: Unicode Common Locale Data Repository
 app-i18n/unicode-data 15.1.0 16.0.0 17.0.0: Unicode data from unicode.org
@@ -19212,7 +19212,7 @@ x11-themes/human-icon-theme 0.36: A nice and well polished icon theme
 x11-themes/iceicons 0.10.0-r2: IceWM Icons is a set of XPM 16x16, 32x32, and 48x48 XPM and PNG icons for IceWM
 x11-themes/icewm-extra-themes 1.2: Extra themes for IceWM
 x11-themes/kfaenza 0.8.9-r3: Faenza-Cupertino icon theme for KDE Plasma
-x11-themes/kvantum 1.1.5 1.1.6: SVG-based theme engine for Qt, KDE Plasma and LXQt
+x11-themes/kvantum 1.1.8: SVG-based theme engine for Qt, KDE Plasma and LXQt
 x11-themes/larry-backgrounds 20110822-r2: Wallpapers featuring Gentoo mascot Larry the cow
 x11-themes/laughlin-backgrounds 14.1.0.3-r2: Fedora 14 official background artwork
 x11-themes/leonidas-backgrounds 11.0.0.2-r2: Fedora 11 official background artwork
@@ -19238,7 +19238,7 @@ x11-themes/papirus-icon-theme 20250501: Free and open source SVG icon theme
 x11-themes/pearlgrey-xcursors 1.0-r2: A simple crispy white-grey xcursor theme
 x11-themes/pidgin-penguins-smileys 1.0: Penguins pidgin smiley theme
 x11-themes/pulse-glass 20100616-r2: The Pulse Glass x11 mouse cursor theme
-x11-themes/qtcurve 1.9.0_p20250314-r2: Widget styles for Qt and GTK2
+x11-themes/qtcurve 1.9.0_p20260606: Widget styles for Qt and GTK2
 x11-themes/shiki-colors 4.6: Mixes the elegance of a dark theme with the usability of a light theme
 x11-themes/silver-xcursors 0.4-r5: High quality set of animated mouse cursors
 x11-themes/slim-themes 1.2.3a-r7: SLiM (Simple Login Manager) themes pack
