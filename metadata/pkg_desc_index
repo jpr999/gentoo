@@ -1396,7 +1396,7 @@ app-containers/earthly 0.8.16-r1: Build automation tool that executes in contain
 app-containers/flannel 0.26.3: An etcd backed network fabric for containers
 app-containers/grype 0.59.1 0.61.0 0.72.0 0.73.0 0.79.3 0.86.1: A vulnerability scanner for container images and filesystems
 app-containers/img 0.5.11: Standalone daemon-less unprivileged Dockerfile and OCI container image builder
-app-containers/incus 6.0.5-r1 6.0.6 6.23 7.0.0-r1 9999: Modern, secure and powerful system container and virtual machine manager
+app-containers/incus 6.0.5-r1 6.0.6 6.23 7.0.0-r1 7.2 9999: Modern, secure and powerful system container and virtual machine manager
 app-containers/k3d 5.8.3 5.9.0: k3d creates k3s clusters in docker
 app-containers/kompose 1.35.0 1.38.0: Tool to move from docker-compose to Kubernetes
 app-containers/lxc 5.0.3 6.0.5 6.0.6 7.0.0: A userspace interface for the Linux kernel containment features
@@ -14730,7 +14730,7 @@ net-analyzer/squidview 0.86: Interactive console program to analyse squid logs
 net-analyzer/ssh-audit 3.3.0 3.3.0_p20250901: SSH server auditing (banner, key exchange, encryption, mac, compression, etc)
 net-analyzer/sshping 0.1.4-r1: ssh-based ping: measure character echo latency and bandwidth
 net-analyzer/ssldump 1.5 1.8 1.9: An SSLv3/TLS network protocol analyzer
-net-analyzer/sslscan 2.2.0 2.2.1 2.2.1-r1: Fast SSL configuration scanner
+net-analyzer/sslscan 2.2.0 2.2.1-r1 2.2.2: Fast SSL configuration scanner
 net-analyzer/sslsplit 0.5.5-r1: Transparent SSL/TLS interception
 net-analyzer/ssmping 0.9.1: Tool for testing multicast connectivity
 net-analyzer/suricata 7.0.15-r1: High performance Network IDS, IPS and Network Security Monitoring engine
