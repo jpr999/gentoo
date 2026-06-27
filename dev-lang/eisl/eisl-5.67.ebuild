@@ -1,7 +1,7 @@
 # Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=8
+EAPI=9
 
 inherit toolchain-funcs
 
@@ -16,7 +16,7 @@ else
 	SRC_URI="https://github.com/sasagawa888/${PN}/archive/v${PV}.tar.gz
 		-> ${P}.gh.tar.gz"
 
-	KEYWORDS="amd64 ~x86"
+	KEYWORDS="~amd64 ~x86"
 fi
 
 LICENSE="BSD-2"
@@ -54,8 +54,8 @@ src_install() {
 	# Compilation of ISLisp files on installation fails.
 	# Do not compile them and mimic "make install".
 	insinto "/usr/share/${PN}"
-	doins -r library
-	doins fast.h ffi.h
+	doins -r ./library/
+	doins ./fast.h ./ffi.h
 
 	einstalldocs
 }

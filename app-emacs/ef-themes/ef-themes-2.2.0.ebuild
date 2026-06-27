@@ -1,14 +1,15 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=8
+EAPI=9
 
 NEED_EMACS="28.1"
 
 inherit elisp
 
 DESCRIPTION="Colourful and legible themes for GNU Emacs"
-HOMEPAGE="https://github.com/protesilaos/ef-themes/"
+HOMEPAGE="https://protesilaos.com/emacs/ef-themes/
+	https://github.com/protesilaos/ef-themes/"
 
 if [[ "${PV}" == *9999* ]] ; then
 	inherit git-r3
@@ -37,7 +38,6 @@ SITEFILE="50${PN}-gentoo.el"
 
 src_compile() {
 	elisp-org-export-to texinfo README.org
-
 	elisp_src_compile
 	elisp-make-autoload-file
 }

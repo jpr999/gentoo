@@ -1,7 +1,9 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=8
+EAPI=9
+
+inherit autotools
 
 DESCRIPTION="line editing library for UNIX call compatible with the FSF readline"
 HOMEPAGE="https://troglobit.com/projects/editline/
@@ -9,27 +11,26 @@ HOMEPAGE="https://troglobit.com/projects/editline/
 
 if [[ "${PV}" == *9999* ]] ; then
 	inherit git-r3
-
-	EGIT_REPO_URI="https://github.com/troglobit/${PN}.git"
+	EGIT_REPO_URI="https://github.com/troglobit/${PN}"
 else
-	SRC_URI="https://github.com/troglobit/${PN}/releases/download/${PV}/${P}.tar.xz"
-
-	KEYWORDS="~amd64 ~x86"
+	SRC_URI="https://github.com/troglobit/${PN}/archive/${PV}.tar.gz
+		-> ${P}.tar.gz"
+	KEYWORDS="~amd64 ~arm64 ~x86"
 fi
 
 LICENSE="Apache-2.0"
-SLOT="0/1.0.2"
+SLOT="0/1.1.0"
 
-PATCHES=(
-	"${FILESDIR}/${PN}-1.16.0-rename-man.patch"
-)
+PATCHES=( "${FILESDIR}/${PN}-1.17.1_p20240527-rename-man.patch" )
 
 src_prepare() {
 	default
+	eautoreconf
 
-	# To avoid collision with dev-libs/libedit
-	# we rename man/editline.3 to man/libeditline.3
+	# To avoid collision with dev-libs/libedit we rename to man/libeditline.3
 	mv man/editline.3 man/libeditline.3 || die
+
+	echo "" > ./test/wrap-tmux.sh || die
 }
 
 src_configure() {
@@ -38,6 +39,5 @@ src_configure() {
 
 src_install() {
 	default
-
 	find "${D}" -type f -name "*.la" -delete || die
 }

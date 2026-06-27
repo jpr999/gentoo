@@ -9,15 +9,16 @@ DESCRIPTION="A program to sync files to and from various cloud storage providers
 HOMEPAGE="https://rclone.org/
 	https://github.com/rclone/rclone/"
 
+SRC_BASE="https://github.com/rclone/rclone/releases/download"
 SRC_URI="
-	https://github.com/rclone/rclone/releases/download/v${PV}/${PN}-v${PV}.tar.gz
-	https://github.com/rclone/rclone/releases/download/v${PV}/${PN}-v${PV}-vendor.tar.gz
+	${SRC_BASE}/v${PV}/${PN}-v${PV}.tar.gz
+	${SRC_BASE}/v${PV}/${PN}-v${PV}-vendor.tar.gz
 "
 S="${WORKDIR}/rclone-v${PV}"
 
 LICENSE="Apache-2.0 BSD BSD-2 ISC MIT MPL-2.0"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~arm64 ~riscv x86"
+KEYWORDS="~amd64 ~arm ~arm64 ~riscv ~x86"
 
 RDEPEND="
 	sys-fs/fuse:3=
@@ -35,7 +36,6 @@ pkg_setup() {
 src_unpack() {
 	mkdir -p "${S}" || die
 	ln -s "../vendor" "${S}/vendor" || die
-
 	go-module_src_unpack
 }
 
@@ -60,7 +60,6 @@ src_test() {
 	# "TestAddPlugin" and "TestRemovePlugin" fail.
 	local -x CI="true"
 	local -x RCLONE_CONFIG="/not_found"
-
 	ego test -mod=vendor -v -run "!Test.*Plugin" ./...
 }
 
