@@ -2559,7 +2559,7 @@ app-i18n/ibus-handwrite 3.0.0-r2: Hand write recognition/input for IBus
 app-i18n/ibus-hangul 1.5.5: Korean Hangul engine for IBus
 app-i18n/ibus-input-pad 1.4.99_pre20140916: Input Pad for IBus
 app-i18n/ibus-libpinyin 1.15.8: Intelligent Pinyin and Bopomofo input methods based on LibPinyin for IBus
-app-i18n/ibus-m17n 1.4.38 1.4.39: M17N engine for IBus
+app-i18n/ibus-m17n 1.4.39 1.4.40: M17N engine for IBus
 app-i18n/ibus-pinyin 1.5.1: Chinese Pinyin and Bopomofo engines for IBus
 app-i18n/ibus-rime 1.5.1 1.6.0: Chinese Rime Input Method Engine for IBus
 app-i18n/ibus-skk 1.4.3 1.4.4: Japanese SKK engine for IBus
@@ -2584,7 +2584,7 @@ app-i18n/libpinyin 2.8.1 9999: Libraries for handling of Hanyu Pinyin and Zhuyin
 app-i18n/librime 1.16.1 1.17.0: RIME (Rime Input Method Engine) core library
 app-i18n/librime-lua 20240819212322-r1 20250707183812 99999999999999: Lua module for RIME
 app-i18n/libskk 1.1.1: GObject-based library to deal with Japanese kana-to-kanji conversion method
-app-i18n/man-pages-ja 20180315-r2 20260115-r2 20260515: Collection of manual pages translated into Japanese
+app-i18n/man-pages-ja 20260115-r2 20260515 20260615: Collection of manual pages translated into Japanese
 app-i18n/man-pages-l10n 4.29.1 4.30.0-r1 4.30.2: A somewhat comprehensive collection of man page translations
 app-i18n/man-pages-ru 5.03.2390.2390.20191017-r1: A collection of Russian translations of Linux manual pages
 app-i18n/man-pages-zh_CN 1.6.4.2-r1: A somewhat comprehensive collection of Chinese Linux man pages
