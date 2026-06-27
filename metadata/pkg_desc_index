@@ -8853,6 +8853,7 @@ dev-python/libcst 1.8.6: A concrete syntax tree with AST-like properties for Pyt
 dev-python/libevdev 0.13.1: Python wrappers for the libevdev library
 dev-python/liblarch 3.2.0: Library to handle directed acyclic graphs
 dev-python/libnacl 2.1.0: Python ctypes wrapper for libsodium
+dev-python/libpass 1.9.3: Fork of passlib, a password hashing framework
 dev-python/librt 0.11.0: Mypyc runtime library
 dev-python/libsass 0.23.0: A straightforward binding of libsass for Python
 dev-python/libtmux 0.46.2 0.52.1 0.53.0 0.53.1 0.55.0 0.55.1 0.56.0 0.57.1 0.58.0 0.58.1: Typed library that provides an ORM wrapper for tmux, a terminal multiplexer
@@ -9044,7 +9045,6 @@ dev-python/parse-type 0.6.6: Extension to the parse module
 dev-python/parsedatetime 2.6-r1: Parse human-readable date/time strings
 dev-python/parso 0.8.6 0.8.7: A python parser that supports error recovery and round-trip parsing
 dev-python/parver 1.0: Parse and manipulate version numbers
-dev-python/passlib 1.9.3: Fork of passlib, a password hashing framework
 dev-python/paste 3.10.1: Tools for using a Web Server Gateway Interface stack
 dev-python/pastedeploy 3.1: Load, configure, and compose WSGI applications and servers
 dev-python/pastel 0.2.1-r1: Bring colors to your terminal
@@ -14840,8 +14840,8 @@ net-dns/ndu 0.4-r4: DNS serial number incrementer and reverse zone builder
 net-dns/nsd 4.14.2 4.14.3 9999: An authoritative only, high performance, open source name server
 net-dns/opendnssec 2.1.13-r2: An open-source turn-key solution for DNSSEC
 net-dns/openresolv 3.16.5 3.17.0 3.17.3 3.17.4: A framework for managing DNS information
-net-dns/pdns 5.0.5 5.0.6 5.1.2: The PowerDNS Daemon
-net-dns/pdns-recursor 5.3.6 5.3.8 5.4.3: The PowerDNS Recursor
+net-dns/pdns 5.0.6 5.1.2: The PowerDNS Daemon
+net-dns/pdns-recursor 5.3.8 5.4.3: The PowerDNS Recursor
 net-dns/pdnsd 1.2.9a-r2: Proxy DNS server with permanent caching
 net-dns/rbldnsd 0.998b-r3 0.998b-r4: DNS server designed to serve blacklist zones
 net-dns/redis-knot 3.5.4 3.5.5: Redis module for Knot DNS
