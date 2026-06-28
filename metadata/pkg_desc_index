@@ -15041,7 +15041,7 @@ net-libs/gupnp-igd 1.6.0-r1: Library to handle UPnP IGD port mapping for GUPnP
 net-libs/http-parser 2.9.4-r2: HTTP request/response parser for C
 net-libs/kdsoap 2.2.0-r1 2.3.0: Qt-based client-side and server-side SOAP component
 net-libs/kdsoap-ws-discovery-client 0.4.0-r2: WS-Discovery client library based on KDSoap
-net-libs/ldns 1.8.4-r1 1.9.0: Library that aims to simplify DNS programming in C
+net-libs/ldns 1.8.4-r1 1.9.0 1.9.2: Library that aims to simplify DNS programming in C
 net-libs/libaccounts-glib 1.27-r1: Accounts SSO (Single Sign-On) management library for GLib applications
 net-libs/libad9361-iio 0.3-r4 9999: IIO AD9361 library for filter design and handling, multi-chip sync, etc
 net-libs/libasr 1.0.4: Async Resolver Library from OpenBSD/OpenSMTPD
@@ -17377,7 +17377,7 @@ sys-apps/minised 1.16: a smaller, cheaper and faster sed implementation
 sys-apps/miscfiles 1.5-r4: Miscellaneous files
 sys-apps/mlocate 0.26-r3: Merging locate is an utility to index and quickly search for files
 sys-apps/mlxup-bin 4.13.0: Mellanox Update and Query Utility
-sys-apps/moor 2.9.6 2.12.0 2.12.3: Pager designed to do the right thing without any configuration
+sys-apps/moor 2.9.6 2.12.0 2.12.3 2.15.1: Pager designed to do the right thing without any configuration
 sys-apps/moreutils 0.70: Collection of tools that nobody thought to write when Unix was young
 sys-apps/most 5.2.0 5.2.0-r1: Paging program that displays, one windowful at a time, the contents of a file
 sys-apps/mount-gtk 1.4.5.1: GTK+ based UDisks2 frontend
