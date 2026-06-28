@@ -3,12 +3,15 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_15t )
+PYTHON_COMPAT=( python3_14 )
+VERIFY_SIG_METHOD=sigstore
 
-inherit git-r3 python-r1
+inherit python-r1 verify-sig
 
-PYVER="$(ver_cut 2-3)t"
-PATCHSET="python-gentoo-patches-3.15.0b3"
+MY_PV=${PV}
+MY_P="Python-${MY_PV%_p*}"
+PYVER=$(ver_cut 1-2)
+PATCHSET="python-gentoo-patches-${MY_PV}"
 
 DESCRIPTION="Test modules from dev-lang/python"
 HOMEPAGE="
@@ -16,14 +19,19 @@ HOMEPAGE="
 	https://github.com/python/cpython/
 "
 SRC_URI="
+	https://www.python.org/ftp/python/${PV%%_*}/${MY_P}.tar.xz
 	https://distfiles.gentoo.org/pub/proj/python/patchsets/${PYVER%t}/${PATCHSET}.tar.xz
+	verify-sig? (
+		https://www.python.org/ftp/python/${PV%%_*}/${MY_P}.tar.xz.sigstore
+	)
 "
-EGIT_REPO_URI="https://github.com/python/cpython.git"
-EGIT_BRANCH=${PYVER%t}
-S="${WORKDIR}/${P}/Lib"
+S="${WORKDIR}/${MY_P}/Lib"
 
 LICENSE="PSF-2"
 SLOT="${PYVER}"
+if [[ ${PV} != *_rc* ]]; then
+	KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~loong ~m68k ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86"
+fi
 # enable by default to help CI handle it (we have no additional deps)
 IUSE="+python_targets_${PYTHON_COMPAT[0]}"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
@@ -36,8 +44,14 @@ BDEPEND="
 	${PYTHON_DEPS}
 "
 
+# https://www.python.org/downloads/metadata/sigstore/
+VERIFY_SIG_CERT_IDENTITY=hugo@python.org
+VERIFY_SIG_CERT_OIDC_ISSUER=https://github.com/login/oauth
+
 src_unpack() {
-	git-r3_src_unpack
+	if use verify-sig; then
+		verify-sig_verify_detached "${DISTDIR}"/${MY_P}.tar.xz{,.sigstore}
+	fi
 	default
 }
 
