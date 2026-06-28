@@ -8859,7 +8859,7 @@ dev-python/liblarch 3.2.0: Library to handle directed acyclic graphs
 dev-python/libnacl 2.1.0: Python ctypes wrapper for libsodium
 dev-python/libpass 1.9.3: Fork of passlib, a password hashing framework
 dev-python/librt 0.11.0: Mypyc runtime library
-dev-python/libsass 0.23.0: A straightforward binding of libsass for Python
+dev-python/libsass 0.23.0-r1: A straightforward binding of libsass for Python
 dev-python/libtmux 0.46.2 0.52.1 0.53.0 0.53.1 0.55.0 0.55.1 0.56.0 0.57.1 0.58.0 0.58.1 0.59.0: Typed library that provides an ORM wrapper for tmux, a terminal multiplexer
 dev-python/libusb1 3.4.0: Python ctype-based wrapper around libusb1
 dev-python/libvirt-python 11.10.0 12.0.0 12.1.0 12.2.0 9999: libvirt Python bindings
