@@ -14055,7 +14055,7 @@ media-sound/amsynth 1.13.4: Virtual analogue synthesizer
 media-sound/apetag 1.12-r3: Command-line ape 2.0 tagger
 media-sound/apulse 0.1.14: PulseAudio emulation for ALSA
 media-sound/aqualung 2.0-r1: Music player for a wide range of formats designed for gapless playback
-media-sound/ardour 8.12-r2 9.2.0-r1 9.7.0 9999: Digital Audio Workstation
+media-sound/ardour 8.12-r2 9.2.0 9.7.0-r1 9999: Digital Audio Workstation
 media-sound/ario 1.6-r2: GTK client for MPD inspired by Rhythmbox but much lighter and faster
 media-sound/aseqview 0.2.8-r3: ALSA sequencer event viewer/filter
 media-sound/asunder 3.0.1-r2: Graphical Audio CD ripper and encoder with support for many output formats
@@ -14321,7 +14321,7 @@ media-sound/spek 0.8.5-r2 0.8.5-r3: Analyse your audio files by showing their sp
 media-sound/splay 0.9.5.2-r2: An audio player, primarily for the console
 media-sound/split2flac 122-r1: sh script to split an APE/FLAC/WV/WAV audio image with CUE sheet into tracks
 media-sound/spotify 1.2.92: Spotify is a social music platform
-media-sound/strawberry 1.2.19 1.2.20 9999: Modern music player and library organizer based on Clementine and Qt
+media-sound/strawberry 1.2.19 1.2.21 9999: Modern music player and library organizer based on Clementine and Qt
 media-sound/streamripper 1.64.6-r1: Extracts and records individual MP3 file tracks from shoutcast streams
 media-sound/streamtranscoder 3.1.11-r2: Commandline program to transcode shoutcast/icecast streams to different bitrates
 media-sound/subsonic-bin 6.1.6: Subsonic is a complete, personal media streaming solution
