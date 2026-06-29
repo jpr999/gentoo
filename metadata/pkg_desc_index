@@ -1256,7 +1256,7 @@ app-backup/bareos 21.1.11 22.1.8 23.1.5 23.1.7 24.0.7 24.0.10 25.0.1 25.0.3 9999
 app-backup/borgbackup 1.4.1-r1 1.4.2-r1 1.4.3 1.4.4: Deduplicating backup program with compression and authenticated encryption
 app-backup/borgmatic 2.0.13 2.1.5 2.1.6: Automatically create, prune and verify backups with borgbackup
 app-backup/btrbk 0.32.6-r1 0.32.6-r2 9999: Tool for creating snapshots and remote backups of btrfs subvolumes
-app-backup/burp 3.1.4 3.1.4-r1 3.2.0: Network backup and restore client and server for Unix and Windows
+app-backup/burp 3.2.0 3.3.0: Network backup and restore client and server for Unix and Windows
 app-backup/ccollect 0.8-r2 2.10: Pseudo incremental backup with different exclude lists using hardlinks and rsync
 app-backup/cdbackup 0.7.1-r2: Allows streaming backup utilities to dump/restore from CD-R(W)s or DVD(+/-RW)s
 app-backup/cdbkup 1.0-r5: Performs full/incremental backups of local/remote filesystems onto CD-R(W)s
@@ -16658,6 +16658,7 @@ sec-keys/openpgp-keys-bcl 20210128 20230315 20260418: OpenPGP keys used by Brian
 sec-keys/openpgp-keys-bennoschulenberg 20260119: OpenPGP key used by Benno Schulenberg
 sec-keys/openpgp-keys-binutils 20260609: OpenPGP keys used to sign GNU Binutils releases
 sec-keys/openpgp-keys-bison 20220407: OpenPGP keys used by Bison
+sec-keys/openpgp-keys-bleachbit 20250910: OpenPGP keys used by the BleachBit developer
 sec-keys/openpgp-keys-bobfriesenhahn 20220326: OpenPGP keys used by Bob Friesenhahn
 sec-keys/openpgp-keys-botan 20210416: OpenPGP keys used to sign Botan releases
 sec-keys/openpgp-keys-bradhouse 20240624: OpenPGP keys used by Brad House
@@ -17232,7 +17233,7 @@ sys-apps/bat 0.23.0-r3 0.24.0-r3 0.25.0-r1 0.26.1-r1: cat(1) clone with syntax h
 sys-apps/bfs 4.0.8 4.1: Breadth-first version of the UNIX find command
 sys-apps/biosdevname 0.7.3-r1: Sets BIOS-given device names instead of kernel eth* names
 sys-apps/biosdisk 1.01: FreeDOS based BIOS updating utility for Dell machines
-sys-apps/bleachbit 4.6.0-r1 4.6.2 5.0.0 5.0.2: Clean junk to free disk space and to maintain privacy
+sys-apps/bleachbit 4.6.0-r1 4.6.2 5.0.0 5.0.2 6.0.0: Clean junk to free disk space and to maintain privacy
 sys-apps/bolt 0.9.8-r1 0.9.9 0.9.10 0.9.11: Userspace system daemon to enable security levels for Thunderbolt 3
 sys-apps/bubblewrap 0.11.2-r1: Unprivileged sandboxing tool, namespaces-powered chroot-like solution
 sys-apps/busybox 1.36.1-r4 1.37.0 1.38.0 9999: Utilities for rescue and embedded systems
