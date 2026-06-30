@@ -9392,7 +9392,7 @@ dev-python/python-jose 3.5.0: A JavaScript Object Signing and Encryption (JOSE) 
 dev-python/python-json-logger 4.1.0: Standard python logging to output log data as json objects
 dev-python/python-keystoneclient 5.8.0: Client Library for OpenStack Identity
 dev-python/python-ldap 3.4.7: Various LDAP-related Python modules
-dev-python/python-linux-procfs 0.7.3 0.7.4: Python classes to extract information from the Linux kernel /proc files
+dev-python/python-linux-procfs 0.7.4: Python classes to extract information from the Linux kernel /proc files
 dev-python/python-lsp-black 2.0.0-r2: Black plugin for the Python LSP Server
 dev-python/python-lsp-jsonrpc 1.1.2: JSON RPC 2.0 server library
 dev-python/python-lsp-ruff 2.3.1: Ruff linting plugin for the Python LSP Server
