@@ -9899,7 +9899,7 @@ dev-python/zmq-anyio 0.3.10 0.3.14: Asynchronous API for ZMQ using AnyIO
 dev-python/zope-component 7.1: Zope Component Architecture
 dev-python/zope-configuration 7.1: Zope Configuration Architecture
 dev-python/zope-deprecation 6.0: Zope Deprecation Infrastructure
-dev-python/zope-event 6.1 6.2: Event publishing / dispatch, used by Zope Component Architecture
+dev-python/zope-event 6.2: Event publishing / dispatch, used by Zope Component Architecture
 dev-python/zope-exceptions 6.0: General purpose exceptions for Zope packages
 dev-python/zope-hookable 8.2: Efficient creation of 'hookable' objects
 dev-python/zope-i18nmessageid 8.2: Zope support for i18nmessageid (tagging source of i18n strings)
