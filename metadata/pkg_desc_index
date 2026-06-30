@@ -9278,7 +9278,7 @@ dev-python/pyro5 5.16 5.17: Distributed object middleware for Python (RPC)
 dev-python/pyroute2 0.9.6: A pure Python netlink and Linux network configuration library
 dev-python/pyrqlite 2.2.3: Python client for rqlite
 dev-python/pyrsistent 0.20.0: Persistent/Functional/Immutable data structures
-dev-python/pyrss2gen 1.1-r2 1.1-r3: RSS feed generator written in Python
+dev-python/pyrss2gen 1.1-r3: RSS feed generator written in Python
 dev-python/pyscard 2.3.1: Smart card support in python
 dev-python/pyscreenshot 3.1: Python screenshot library
 dev-python/pysdl2 0.9.17: Python (ctypes) bindings for SDL2 libraries
