@@ -8918,7 +8918,7 @@ dev-python/mechanicalsoup 1.4.0: A Python library for automating interaction wit
 dev-python/mechanize 0.4.10: Stateful programmatic web browsing in Python
 dev-python/mediafile 0.17.0: Read and write audio files' tags in Python
 dev-python/memory-allocator 0.2.0: An extension class for memory allocation in cython
-dev-python/merge3 0.0.15 0.0.16: Python implementation of 3-way merge
+dev-python/merge3 0.0.16: Python implementation of 3-way merge
 dev-python/mergedict 1.0.0-r1: A Python 'dict' with a merge() method
 dev-python/meshio 5.3.5-r1: Input/output for many mesh formats
 dev-python/meson-python 0.19.0 0.20.0: Meson PEP 517 Python build backend
