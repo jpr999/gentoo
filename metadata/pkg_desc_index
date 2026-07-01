@@ -7040,7 +7040,7 @@ dev-perl/Graphics-ColorNames-WWW 1.140.0-r1: WWW color names and equivalent RGB 
 dev-perl/Graphics-ColorObject 0.5.0-r3: Convert between color spaces
 dev-perl/Graphics-Toolkit-Color 1.710.0 1.972.0: Color palette constructor
 dev-perl/Growl-GNTP 0.210.0-r2: Perl implementation of GNTP Protocol (Client Part)
-dev-perl/Gtk2 1.249.930-r1: Perl bindings for GTK2
+dev-perl/Gtk2 1.249.930-r1 1.249.930-r2: Perl bindings for GTK2
 dev-perl/Gtk3 0.38.0-r1: Perl interface to the 3.x series of the gtk+ toolkit
 dev-perl/Gtk3-ImageView 12.0.0: Image viewer widget for Gtk3
 dev-perl/Gtk3-SimpleList 0.210.0-r1: Simple interface to GTK+ 3's complex MVC list widget
